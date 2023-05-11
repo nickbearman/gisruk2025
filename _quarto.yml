@@ -1,0 +1,53 @@
+project:
+  type: website
+
+website:
+  title: "GISRUK 2024"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "About"
+        menu:
+          - href: about.qmd
+            text: GISRUK
+          - href: theme.qmd
+            text: Conference Theme
+      - text: "Participation"
+        menu:
+          - href: cfp.qmd
+            text: Call for papers
+          - href: registration.qmd
+            text: Registration
+          - href: sponsorship.qmd
+            text: Sponsorship
+      - text: "Programme"
+        menu:
+          - href: program.qmd
+            text: Conference Programme
+          - href: keynotes.qmd
+            text: Keynote Speakers
+          - href: ecrs.qmd
+            text: ECR Sessions
+      - href: contact.qmd
+        text: Contact
+    tools:
+      - icon: twitter
+        href: https://twitter.com/
+  page-footer: 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+
+
