@@ -22,6 +22,7 @@ Selected papers will also be considered for publication in
 [Journal/Proceedings].
 
 Submission Guidelines:
+
 * Papers should be original and not previously published or under review elsewhere.
 * Papers should be written in [Formatting Guidelines].
 * Papers should be submitted via [Submission Platform] by [Deadline].
