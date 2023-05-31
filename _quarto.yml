@@ -33,13 +33,13 @@ website:
         text: Contact
     tools:
       - icon: twitter
-        href: https://twitter.com/
+        href: https://twitter.com/gisruk/
   page-footer: 
     right: 
       - icon: github
-        href: https://github.com/
+        href: https://github.com/gisruk2024/
       - icon: twitter 
-        href: https://twitter.com/ 
+        href: https://twitter.com/gisruk/
 
 format:
   html:
