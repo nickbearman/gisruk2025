@@ -2,4 +2,29 @@
 title: Call for Papers
 ---
 
-Details to come soon.
+GISRUK 2023 aims to bring together researchers, practitioners, and students from
+the field of Geographic Information Science (GIS) to share their latest
+research, developments, and applications.
+
+We invite submissions of original research papers, case studies, and posters on
+topics related to GIS.
+Topics of interest include, but are not limited to:
+
+* Topic 1
+* Topic 2
+* Topic 3
+* Topic 4
+* Topic 5
+
+Submissions will be reviewed by a panel of experts in the field, and accepted
+papers will be presented at the conference.
+Selected papers will also be considered for publication in
+[Journal/Proceedings].
+
+Submission Guidelines:
+* Papers should be original and not previously published or under review elsewhere.
+* Papers should be written in [Formatting Guidelines].
+* Papers should be submitted via [Submission Platform] by [Deadline].
+
+# Paper Templates
+
