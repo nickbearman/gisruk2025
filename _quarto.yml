@@ -3,16 +3,18 @@ project:
 
 website:
   title: "GISRUK 2024"
+  favicon: "img/favicon/favicon.ico"
   navbar:
+    logo: "img/favicon/apple-touch-icon.png"
     left:
       - href: index.qmd
         text: Home
-      - text: "About"
-        menu:
-          - href: about.qmd
-            text: GISRUK
-          - href: theme.qmd
-            text: Conference Theme
+      # - text: "About"
+      #   menu:
+      #     - href: about.qmd
+      #       text: GISRUK
+      #     - href: theme.qmd
+      #       text: Conference Theme
       - text: "Participation"
         menu:
           - href: cfp.qmd
@@ -29,8 +31,8 @@ website:
             text: Keynote Speakers
           - href: ecrs.qmd
             text: ECR Sessions
-      - href: contact.qmd
-        text: Contact
+      - href: organisation.qmd
+        text: Organisation
     tools:
       - icon: twitter
         href: https://twitter.com/gisruk/
@@ -43,10 +45,10 @@ website:
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
-    css: styles.css
+    # theme:
+    #   light: flatly
+    #   dark: darkly
+    theme: leeds.scss
     toc: true
 
 

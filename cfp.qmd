@@ -1,31 +1,36 @@
 ---
 title: Call for Papers
 ---
+We are pleased to invite **1500-word extended abstracts** for the 32nd Annual GISRUK Conference, to be held **9th -- 12th April 2024** at the University of Leeds. The deadline is **7th November 2023** and submission is via EasyChair (details to follow).
 
-GISRUK 2023 aims to bring together researchers, practitioners, and students from
-the field of Geographic Information Science (GIS) to share their latest
-research, developments, and applications.
+Work presented at GISRUK covers a range of methodological approaches and application areas. We are particularly interested in papers that align with the conference theme --  **GIS for public good: data, theory, policy** -- but  below is a non-exhaustive list of typical focuses:
 
-We invite submissions of original research papers, case studies, and posters on
-topics related to GIS.
-Topics of interest include, but are not limited to:
+*Data/Methods*
 
-* Topic 1
-* Topic 2
-* Topic 3
-* Topic 4
-* Topic 5
+* Spatial statistics
+* Agent-based models
+* Open data and code 
+* Reproducibility and inference 
+* Uncertainty quantification and analysis
+* Machine learning and AI 
+* Data visualization and communication
 
-Submissions will be reviewed by a panel of experts in the field, and accepted
-papers will be presented at the conference.
-Selected papers will also be considered for publication in
-[Journal/Proceedings].
 
-Submission Guidelines:
+*Application areas* 
 
-* Papers should be original and not previously published or under review elsewhere.
-* Papers should be written in [Formatting Guidelines].
-* Papers should be submitted via [Submission Platform] by [Deadline].
+* transportation and land use
+* environment and sustainability
+* health, neighbourhoods and housing
+* crime analysis
+* labour markets and economic geography
 
-# Paper Templates
+Submitted abstracts will be assessed by **at least two members** from the GISRUK 2024 Scientific Committee and selected papers invited for full journal publication as a Special Issue (details to follow).
+
+### Guidelines 
+
+* Submissions should be extended abstracts of no more than 1500 words. 
+* Absrtacts should be prepared using one of these templates ([MS Word](GISRUK2023_PaperTemplateSubmission.docx), [LaTeX](GISRUK2023-LaTeX_template.zip), [Quarto](https://github.com/sdesabbata/quarto-gisruk)).  
+* All abstracts will be subject to peer review and allocated to short or long presentations, or poster presentations. 
+* Authors should make efforts towards enabling reproducibility of their work, where possible. GISRUK do not produce specific guidance, but authors may wish to consult relevant documentation from organisations such as [AGILE](https://osf.io/numa5).
+* Any queries can be directed to [Roger Beecham](https://www.roger-beecham.com/): [r.j.beecham@leeds.ac.uk](mailto:r.j.beecham@leeds.ac.uk).
 

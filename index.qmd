@@ -1,27 +1,20 @@
 ---
-title: "GISRUK 2024 -- University of Leeds"
+title: "GISRUK 2024 : University of Leeds"
 ---
 
-Welcome to the GIS Research UK Conference 2024.
-This year, the conference is being hosted at the University of Leeds.
+Welcome to the 32nd Annual GIS Research UK Conference. The conference will be hosted at University of Leeds on **9th -- 12th April 2024**. 
 
-GISRUK is an annual conference that brings together researchers, practitioners,
-and students from the field of Geographic Information Science (GIS) in the
-United Kingdom.
-The conference provides a platform for sharing the latest research,
-developments, and applications in GIS, as well as networking opportunities for
-attendees.
-The conference typically includes keynote speeches, paper presentations,
-workshops, and poster sessions covering a wide range of topics related to GIS,
-such as spatial analysis, remote sensing, cartography, and geovisualization.
+GISRUK attracts international researchers and practitioners in GIS and related fields to share and discuss the latest advances in spatial computing and analysis. The work presented at GISRUK covers a range of methodological approaches and application areas, including: geographic data science, geocomputation, applied statistics, geography, health, urban and transport planning, crime science.
 
-# Key Dates
+We welcome papers covering all aspects of GIS, both methodological and applied. There is also a theme for the 2024 conference --  **GIS for public good: data, theory, policy** -- around which keynotes and other activity will be structured.
 
-* Paper submission deadline:
-* Paper review notifications:
-* Registration deadline:
-* ECR workshops:
-* Conference:
+See the [Call for papers](cfp.qmd) for details on how to submit.
 
-# Sponsors
+## Key Dates
+
+* Paper submission deadline: early-mid November 2023 (deadline TBC)
+* Paper review notifications: early-mid Jan 2024 (deadline TBC)
+* Registration opens: December 2023
+* ECR workshops: 9th-10th April 2024
+* Conference: 10th-12th April 2024
 
