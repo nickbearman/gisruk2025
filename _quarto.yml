@@ -39,11 +39,11 @@ website:
     tools:
       - icon: twitter
         href: https://twitter.com/gisruk/
-  page-footer: 
-    right: 
+  page-footer:
+    right:
       - icon: github
         href: https://github.com/gisruk2024/
-      - icon: twitter 
+      - icon: twitter
         href: https://twitter.com/gisruk/
 
 format:
@@ -53,5 +53,3 @@ format:
     #   dark: darkly
     theme: leeds.scss
     toc: true
-
-

@@ -33,3 +33,8 @@ Submitted abstracts will be assessed by **at least two members** from the GISRUK
 * All abstracts will be subject to peer review and allocated to short or long presentations, or poster presentations.
 * Authors should make efforts towards enabling reproducibility of their work, where possible. GISRUK do not produce specific guidance, but authors may wish to consult relevant documentation from organisations such as [AGILE](https://osf.io/numa5).
 * Any queries can be directed to [Roger Beecham](https://www.roger-beecham.com/): [r.j.beecham@leeds.ac.uk](mailto:r.j.beecham@leeds.ac.uk).
+
+### Key dates
+
+* Paper submission deadline: Monday 8th January 2024
+* Paper review notifications: Monday 12th February 2024
