@@ -2,18 +2,19 @@
 title: "GISRUK 2024 : University of Leeds"
 ---
 
-Welcome to the 32nd Annual GIS Research UK Conference. The conference will be hosted at University of Leeds on **9th -- 12th April 2024**.
+Welcome to the 32nd Annual GIS Research UK Conference. The conference will be hosted at University of Leeds on **9th -- 12th April 2024**. 
 
 GISRUK attracts international researchers and practitioners in GIS and related fields to share and discuss the latest advances in spatial computing and analysis. The work presented at GISRUK covers a range of methodological approaches and application areas, including: geographic data science, geocomputation, applied statistics, geography, health, urban and transport planning, crime science.
 
 We welcome papers covering all aspects of GIS, both methodological and applied. There is also a theme for the 2024 conference --  **GIS for public good: data, theory, policy** -- around which keynotes and other activity will be structured.
 
-See the [Call for papers](cfp.qmd) for details on how to submit.
+See the [Call for papers](cfp/) for details on how to submit.
 
 ## Key Dates
 
-* Paper submission deadline: early-mid November 2023 (deadline TBC)
-* Paper review notifications: early-mid Jan 2024 (deadline TBC)
-* Registration opens: December 2023
+* Paper submission deadline: Monday 8th January 2024 
+* Paper review notifications: Monday 12th February 2024 
+* Registration opens: January 2024
 * ECR workshops: 9th-10th April 2024
 * Conference: 10th-12th April 2024
+

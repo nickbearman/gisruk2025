@@ -20,21 +20,21 @@ website:
       #       text: Conference Theme
       - text: "Participation"
         menu:
-          - href: cfp.qmd
+          - href: cfp/
             text: Call for papers
-          - href: registration.qmd
+          - href: registration/
             text: Registration
-          - href: sponsorship.qmd
+          - href: sponsorship/
             text: Sponsorship
       - text: "Programme"
         menu:
-          - href: program.qmd
+          - href: program/
             text: Conference Programme
-          - href: keynotes.qmd
+          - href: keynotes/
             text: Keynote Speakers
-          - href: ecrs.qmd
+          - href: ecrs/
             text: ECR Sessions
-      - href: organisation.qmd
+      - href: organisation/
         text: Organisation
     tools:
       - icon: twitter
