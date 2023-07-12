@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+
 website:
   title: "GISRUK 2024"
   favicon: "img/favicon/favicon.ico"
@@ -50,6 +53,5 @@ format:
     #   dark: darkly
     theme: leeds.scss
     toc: true
-
 
 
