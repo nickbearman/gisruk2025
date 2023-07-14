@@ -4,6 +4,9 @@ project:
 execute:
   freeze: auto
 
+resources:
+  - CNAME.txt
+
 website:
   title: "GISRUK 2024"
   favicon: "img/favicon/favicon.ico"
