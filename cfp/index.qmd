@@ -18,11 +18,11 @@ Work presented at GISRUK covers a range of methodological approaches and applica
 
 *Application areas*
 
-* transportation and land use
-* environment and sustainability
-* health, neighbourhoods and housing
-* crime analysis
-* labour markets and economic geography
+* Transportation and land use
+* Environment and sustainability
+* Health, neighbourhoods and housing
+* Crime analysis
+* Labour markets and economic geography
 
 Submitted abstracts will be assessed by **at least two members** from the GISRUK 2024 Scientific Committee and selected papers invited for full journal publication as a Special Issue (details to follow).
 
@@ -30,10 +30,9 @@ Submitted abstracts will be assessed by **at least two members** from the GISRUK
 
 * Submission is via EasyChair (details to follow).
 * Submissions should be extended abstracts of no more than 1500 words.
-* Absrtacts should be prepared using one of these templates ([MS Word](../files/GISRUK2024_PaperTemplateSubmission.docx), [LaTeX](../files/GISRUK2024-LaTeX_template.zip), [Quarto](https://github.com/sdesabbata/quarto-gisruk)).
-* All abstracts will be subject to peer review and allocated to short or long presentations, or poster presentations.
+* Abstracts must be prepared using one of these templates ([MS Word](../files/GISRUK2024_PaperTemplateSubmission.docx), [LaTeX](../files/GISRUK2024-LaTeX_template.zip), [Quarto](https://github.com/sdesabbata/quarto-gisruk)).
 * Authors should make efforts towards enabling reproducibility of their work, where possible. GISRUK do not produce specific guidance, but authors may wish to consult relevant documentation from organisations such as [AGILE](https://osf.io/numa5).
-* Any queries can be directed to [Roger Beecham](https://www.roger-beecham.com/): [r.j.beecham@leeds.ac.uk](mailto:r.j.beecham@leeds.ac.uk).
+* Any queries can be directed to : [info@gisruk.org](mailto:info@gisruk.org).
 
 ### Key dates
 
