@@ -25,6 +25,8 @@ website:
         menu:
           - href: cfp/
             text: Call for papers
+          - href: osgeo/
+            text: GISRUK & OSGeo:UK GoFundGeo Award
           - href: registration/
             text: Registration
           - href: sponsorship/

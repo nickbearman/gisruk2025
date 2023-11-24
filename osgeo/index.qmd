@@ -1,0 +1,27 @@
+---
+title: GISRUK & OSGeo:UK GoFundGeo Award
+---
+
+## The award
+
+GISRUK and OSGeo:UK are co-funding a GoFundGeo grant of £500 that will be offered to one GISRUK presenter who presents a tool or technique that has potential for wide uptake in the open source geospatial (OSGeo) community. The purpose of the grant is to help the recipient to make their approach easily adoptable through the provision of open source code repository and/or tool (e.g. a QGIS plugin). This grant is open to all, but with a focus on ECRs.
+
+This is the first time that this grant has been awarded, but we envisage that likely candidates will be GISRUK presenters (oral or poster) who have either developed some code (e.g., a Python/R script or library, a plugin for QGIS or some standalone software etc.); or a method / technique that has the clear potential to be turned into some code. In either case, we are looking for a submission with the potential to be used widely in the open source geospatial community.
+
+## Expectations of the recipient
+
+If you agree to this we will expect you to:
+
+* Make the code available with an open source licence ([open source initiative approved](https://opensource.org/)) and present it in some reusable form (e.g., via GitHub).
+
+* Apply to be a [OSGeo Community project](https://www.osgeo.org/about/committees/incubation/). We will support you with this process. If you wish to progress to a full OSGeo Project and undertake the incubation process you can, but this is not required.
+
+* Submit a talk to the next FOSS4G:UK conference to present the software / library you have developed. You are also welcome to apply to present at FOSS4G, the international conference series.
+
+* Provide an update of your progress / outputs (approx 1 year after the funding). e.g., a presentation at GISRUK or a GISRUK webinar.
+
+We will support you with this and help you with the process of applying to be an OSGeo Community Project and submit a Talk to FOSS4G:UK.
+
+## How to apply
+
+To apply, please check the appropriate check box when submitting your GISRUK extended abstract. A selected panel of members of the OSGeo:UK community and GISRUK national steering committee will review the submitted abstracts and presentations to select the recipient. We will then confirm agreement to receive this grant with the selected candidate prior to the public announcement at the GISRUK conference closing ceremony.

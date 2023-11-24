@@ -34,6 +34,7 @@ Submitted abstracts will be assessed by **at least two members** from the GISRUK
 * Submission is via Oxford Abstracts [submission link](https://app.oxfordabstracts.com/stages/6800/submitter).
 * Submissions should be extended abstracts of no more than 1500 words.
 * Abstracts must be prepared using one of these templates ([MS Word](../files/GISRUK2024_PaperTemplateSubmission.docx), [LaTeX](../files/GISRUK2024-LaTeX_template.zip), [Quarto](https://github.com/sdesabbata/quarto-gisruk)).
+* **New**: Identify whether you would like your submission to be considered for the [GISRUK & OSGeo:UK GoFundGeo Award](/osgeo/).
 * Authors should make efforts towards enabling reproducibility of their work, where possible. GISRUK do not produce specific guidance, but authors may wish to consult relevant documentation from organisations such as [AGILE](https://osf.io/numa5).
 * Any queries can be directed to : [info@gisruk.org](mailto:info@gisruk.org).
 
