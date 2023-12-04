@@ -45,6 +45,13 @@ website:
       - icon: twitter
         href: https://twitter.com/gisruk/
   page-footer:
+    # center:
+    #   - icon: "img/logos/logo_cdrc.webp"
+    #     href: https://www.cdrc.ac.uk
+    #   - icon: "img/logos/logo_rgs.webp"
+    #     href: https://www.rgs.org/
+    #   - icon: "img/logos/OSGeoUK2.png"
+    #     href: https://www.osgeo.org/
     right:
       - icon: github
         href: https://github.com/gisruk2024/
@@ -58,3 +65,4 @@ format:
     #   dark: darkly
     theme: leeds.scss
     toc: true
+    include-after-body: footer.html
