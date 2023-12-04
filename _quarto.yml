@@ -5,7 +5,7 @@ execute:
   freeze: auto
 
 resources:
-  - CNAME.txt
+  - CNAME
 
 website:
   title: "GISRUK 2024"
