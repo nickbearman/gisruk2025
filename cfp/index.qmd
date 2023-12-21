@@ -29,6 +29,8 @@ Work presented at GISRUK covers a range of methodological approaches and applica
 
 Submitted abstracts will be assessed by **at least two members** from the GISRUK 2024 Scientific Committee.
 
+**New**. We have agreed a Special Issue linked to the conference with [Environment & Planning B: Urban Data/Code](https://uk.sagepub.com/en-gb/eur/environment-and-planning-b-urban-analytics-and-city-science/journal203385#description). Details to follow, but we will be encouraging discrete Data/Code products that relate to the conference theme: *GIS for public good: data, theory, policy*. For information on the Urban Data/Code section of E&P B, see Arribas-Bel et al.'s (2021) [editorial](https://journals.sagepub.com/doi/full/10.1177/23998083211059670?_gl=1*1y72m9o*_ga*MTM3ODc1NzM1OS4xNjQyNzA4NjE5*_ga_60R758KFDG*MTcwMzE2MjMwMS40NC4wLjE3MDMxNjIzMDEuNjAuMC4w).
+
 ### Guidelines
 
 * Submission is via Oxford Abstracts [submission link](https://app.oxfordabstracts.com/stages/6800/submitter).

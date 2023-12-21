@@ -10,6 +10,8 @@ We welcome papers covering all aspects of GIS, both methodological and applied. 
 
 See the [Call for papers](cfp/) for details on how to submit.
 
+**New**. We have agreed a Special Issue linked to the conference with [Environment & Planning B: Urban Data/Code](https://uk.sagepub.com/en-gb/eur/environment-and-planning-b-urban-analytics-and-city-science/journal203385#description). Details to follow, but we will be encouraging discrete Data/Code products that relate to the conference theme: *GIS for public good: data, theory, policy*. For information on the Urban Data/Code section, see Arribas-Bel et al.'s (2021) [editorial](https://journals.sagepub.com/doi/full/10.1177/23998083211059670?_gl=1*1y72m9o*_ga*MTM3ODc1NzM1OS4xNjQyNzA4NjE5*_ga_60R758KFDG*MTcwMzE2MjMwMS40NC4wLjE3MDMxNjIzMDEuNjAuMC4w).
+
 ## Key Dates
 
 * Paper submission deadline: ~~Monday 8th January 2024~~ Friday 19th January 2024
