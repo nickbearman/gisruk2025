@@ -2,6 +2,20 @@
 title: "GISRUK 2024 : University of Leeds"
 ---
 
+
+
+::: {.callout-important}
+## LIVE : Important Update, 19th Jan 2024 
+
+We have been made aware of some issues with uploading files on Oxford Abstracts -- we are trying to fix these and have extended the deadline to **5pm on Monday 22nd Jan 2024**.   
+
+Very sorry for the inconvenience. Please spread the word -- and hopefully we’ll be all sorted on Monday! 
+
+:::
+
+
+<br>
+
 Welcome to the 32nd Annual GIS Research UK Conference. The conference will be hosted at University of Leeds on **9th -- 12th April 2024**.
 
 GISRUK attracts international researchers and practitioners in GIS and related fields to share and discuss the latest advances in spatial computing and analysis. The work presented at GISRUK covers a range of methodological approaches and application areas, including: geographic data science, geocomputation, applied statistics, geography, health, urban and transport planning, crime science.
