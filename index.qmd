@@ -2,6 +2,22 @@
 title: "GISRUK 2024 : University of Leeds"
 ---
 
+
+
+::: {.callout-important}
+## LIVE : Important Update, 19th Jan 2024 
+
+**EDIT**: The submission system is now **fixed** and up and running. Please submit as soon as you can, but we'll of course honour the extended deadline.
+
+We have been made aware of some issues with uploading files on Oxford Abstracts -- we are trying to fix these and have extended the deadline to **5pm on Monday 22nd Jan 2024**.   
+
+Very sorry for the inconvenience. Please spread the word -- and hopefully we’ll be all sorted on Monday! 
+
+:::
+
+
+<br>
+
 Welcome to the 32nd Annual GIS Research UK Conference. The conference will be hosted at University of Leeds on **9th -- 12th April 2024**.
 
 GISRUK attracts international researchers and practitioners in GIS and related fields to share and discuss the latest advances in spatial computing and analysis. The work presented at GISRUK covers a range of methodological approaches and application areas, including: geographic data science, geocomputation, applied statistics, geography, health, urban and transport planning, crime science.
@@ -9,6 +25,8 @@ GISRUK attracts international researchers and practitioners in GIS and related f
 We welcome papers covering all aspects of GIS, both methodological and applied. There is also a theme for the 2024 conference --  **GIS for public good: data, theory, policy** -- around which keynotes and other activity will be structured.
 
 See the [Call for papers](cfp/) for details on how to submit.
+
+**New**. We have agreed a Special Issue linked to the conference with [Environment & Planning B: Urban Data/Code](https://uk.sagepub.com/en-gb/eur/environment-and-planning-b-urban-analytics-and-city-science/journal203385#description). Details to follow, but we will be encouraging discrete Data/Code products that relate to the conference theme: *GIS for public good: data, theory, policy*. For information on the Urban Data/Code section, see Arribas-Bel et al.'s (2021) [editorial](https://journals.sagepub.com/doi/full/10.1177/23998083211059670?_gl=1*1y72m9o*_ga*MTM3ODc1NzM1OS4xNjQyNzA4NjE5*_ga_60R758KFDG*MTcwMzE2MjMwMS40NC4wLjE3MDMxNjIzMDEuNjAuMC4w).
 
 ## Key Dates
 

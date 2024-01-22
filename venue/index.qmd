@@ -1,0 +1,34 @@
+---
+title: Venue
+include-in-header: ../venue_header.html
+---
+
+Details to appear soon.
+
+
+```{=html}
+ <div id="map"></div>
+ <script>
+    // Set up map
+    const mymap = L.map('map').setView([53.799690, -1.549100], 14);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+        maxZoom: 18
+    }).addTo(mymap);
+
+    // Define locations
+    var locations = [
+        ["<b>University</b><br>University of Leeds<br>Woodhouse Lane<br>Leeds<br>LS2 9JT", 53.806683, -1.555033],
+        ["<b>Dinner Venue</b><br>The Faversham<br>1-5 Springfield Mount<br>Leeds<br>LS2 9NG", 53.804630, -1.556920],
+        ["<b>Train Station</b><br>Leeds Station<br>New Station Street<br>Leeds<br>LS1 4DY", 53.795047, -1.547839],
+        ["<b>Conference Venue</b><br>Cloth Hall Court<br>Quebec Street<br>Leeds<br>LS1 2HA", 53.7967454, -1.5487262]
+    ];
+
+    // Add markers
+    for (var i = 0; i < locations.length; i++) {
+        var marker = L.marker([locations[i][1], locations[i][2]]).addTo(mymap);
+        marker.bindPopup(locations[i][0]);
+    }
+
+ </script>
+```

@@ -27,6 +27,8 @@ website:
             text: Call for papers
           - href: osgeo/
             text: GISRUK & OSGeo:UK GoFundGeo Award
+          - href: si/
+            text: SI with E&P B Urban Data/Code
           - href: registration/
             text: Registration
           - href: sponsorship/
@@ -41,6 +43,8 @@ website:
             text: ECR Sessions
       - href: organisation/
         text: Organisation
+      - href: venue/
+        text: Venue
     tools:
       - icon: twitter
         href: https://twitter.com/gisruk/
