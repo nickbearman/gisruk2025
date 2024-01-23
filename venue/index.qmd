@@ -14,6 +14,14 @@ It is situated in the heart of the city, close to Leeds Train Station.
 
 More information about the venue can be found [here](https://conferencesandevents.leeds.ac.uk/cloth-hall-court/).
 
+## Dinner Venue: The Faversham
+
+> The Faversham, 1-5 Springfield Mount, LS2 9NG
+
+The conference dinner will be hosted at The Faversham, which is located close to
+the University of Leeds.
+
+
 ## Map of Locations
 
 ```{=html}
