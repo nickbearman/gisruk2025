@@ -3,8 +3,18 @@ title: Venue
 include-in-header: ../venue_header.html
 ---
 
-Details to appear soon.
+## Conference Venue: Cloth Hall Court
 
+> Cloth Hall Court, Quebec Street, LS1 2HA
+
+![](https://conferencesandevents.leeds.ac.uk/wp-content/uploads/2023/07/MicrosoftTeams-image-11.jpg "Cloth Hall Court")
+
+This year's GISRUK will be held at Cloth Hall Court, which is a conference and events venue located in Leeds.
+It is situated in the heart of the city, close to Leeds Train Station.
+
+More information about the venue can be found [here](https://conferencesandevents.leeds.ac.uk/cloth-hall-court/).
+
+## Map of Locations
 
 ```{=html}
  <div id="map"></div>
