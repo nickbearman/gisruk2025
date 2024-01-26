@@ -2,19 +2,6 @@
 title: Call for Papers
 ---
 
-::: {.callout-important}
-## LIVE : Important Update, 19th Jan 2024 
-
-**EDIT**: The submission system is now **fixed** and up and running. Please submit as soon as you can, but we'll of course honour the extended deadline.
-
-We have been made aware of some issues with uploading files on Oxford Abstracts -- we are trying to fix these and have extended the deadline to **5pm on Monday 22nd Jan 2024**.   
-
-Very sorry for the inconvenience. Please spread the word -- and hopefully we’ll be all sorted on Monday! 
-
-:::
-
-
-
 We are pleased to invite **1500-word extended abstracts** for the 32nd Annual GISRUK Conference, to be held **9th -- 12th April 2024** at the University of Leeds. The deadline is ~~Monday 8th January 2024~~ **Friday 19th January 2024** and submission is via Oxford Abstracts ([submission link](https://app.oxfordabstracts.com/stages/6800/submitter)).
 
 Work presented at GISRUK covers a range of methodological approaches and application areas. We are particularly interested in papers that align with the conference theme --  **GIS for public good: data, theory, policy** -- but  below is a non-exhaustive list of typical focuses:
