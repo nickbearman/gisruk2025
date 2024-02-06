@@ -31,8 +31,6 @@ website:
             text: SI with E&P B Urban Data/Code
           - href: registration/
             text: Registration
-          - href: sponsorship/
-            text: Sponsorship
       - text: "Programme"
         menu:
           - href: program/
