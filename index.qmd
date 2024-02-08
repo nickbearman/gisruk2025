@@ -14,6 +14,7 @@ Registration is now open via [ **this link**  {{< fa solid link >}}](https://eu.
 | Late (ends 1st April)        | £210     | £280        |
 
 
+<br>
 
 <div class="inline"> <i class="fa-regular fa-bullhorn fa-beat-fade fa-xl" style="color:#b6545c; --fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i> &nbsp;  At this year's  conference we have a **large number** of **fee waiver bursaries** to support Early Career Researchers (especially PGRs) and/or underrepresented groups. If you would like to be considered for this fee waiver, **please complete [ this form   {{< fa solid pen-to-square >}}](https://eu.eventscloud.com/ereg/index.php?eventid=200272788&)** as soon as possible, and **by 4th March** at latest. Though we have a large number of bursaries, to best prioritise based on need we ask that those who already have funding easily available from other sources do not apply. We will get back to confirm whether your application for the fee waiver was successful well in advance of the early-bird deadline. </div>
 
