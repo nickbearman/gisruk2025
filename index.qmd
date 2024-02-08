@@ -2,6 +2,23 @@
 title: "GISRUK 2024 : University of Leeds"
 ---
 
+::: {.callout-important icon=true}
+
+## Registration Open
+Registration is now open via [ **this link**  {{< fa solid link >}}](https://eu.eventscloud.com/ereg/index.php?eventid=200272788&).  Rates are below.
+
+
+|                              | Student  | Non-student |
+|------------------------------|----------|-------------|
+| Early bird (ends 18th March) | £185     | £250        |
+| Late (ends 1st April)        | £210     | £280        |
+
+
+
+<div class="inline"> <i class="fa-regular fa-bullhorn fa-beat-fade fa-xl" style="color:#b6545c; --fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i> &nbsp;  At this year's  conference we have a **large number** of **fee waiver bursaries** to support Early Career Researchers (especially PGRs) and/or underrepresented groups. If you would like to be considered for this fee waiver, **please complete [ this form   {{< fa solid pen-to-square >}}](https://eu.eventscloud.com/ereg/index.php?eventid=200272788&)** as soon as possible, and **by 4th March** at latest. Though we have a large number of bursaries, to best prioritise based on need we ask that those who already have funding easily available from other sources do not apply. We will get back to confirm whether your application for the fee waiver was successful well in advance of the early-bird deadline. </div>
+
+:::
+
 Welcome to the 32nd Annual GIS Research UK Conference. The conference will be hosted at University of Leeds on **9th -- 12th April 2024**.
 
 GISRUK attracts international researchers and practitioners in GIS and related fields to share and discuss the latest advances in spatial computing and analysis. The work presented at GISRUK covers a range of methodological approaches and application areas, including: geographic data science, geocomputation, applied statistics, geography, health, urban and transport planning, crime science.
@@ -19,6 +36,6 @@ For information on the Urban Data/Code section, see Arribas-Bel et al.'s (2021) 
 
 * Paper submission deadline: ~~Monday 8th January 2024~~ Friday 19th January 2024
 * Paper review notifications: ~~Monday 12th February 2024~~ Monday 19th February 2024
-* Registration opens: January 2024
+* Registration opens: February 2024
 * ECR workshops: 9th-10th April 2024
 * Conference: 10th-12th April 2024
