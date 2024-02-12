@@ -1,0 +1,14 @@
+{
+  "hash": "9bf34184182d05835b6407a5a798a6b0",
+  "result": {
+    "markdown": "---\ntitle: \"Conference Programme\"\n---\n\n::: {.cell}\n\n:::\n\n\n\n<!-- ### Tuesday 9th April 2024 -->\n\n\n::: {.cell}\n\n:::\n\n\n<!-- ### Wednesday 10th April 2024 -->\n\n\n::: {.cell}\n\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
