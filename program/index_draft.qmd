@@ -1,0 +1,375 @@
+---
+title: "Conference Programme"
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| eval: true
+library(gt)
+library(gtExtras)
+library(fontawesome)
+
+denim <- "#4d7ab0"
+herringbone <- "#d06c4b"
+merchant <- "#8c4772"
+tweed <- "#589157"
+tbc <- "#9a9a9a"
+
+# sysfonts::font_add(family = "Font Awesome 6 Free",
+#                    regular = "/Users/rogerbeecham/Library/Fonts/FontAwesome6Free-Regular-400.otf")
+# showtext::showtext_auto()
+
+# dot_icon <- "&#xf01D"
+# denim_icon <- glue::glue(
+#   "<span style='font-family:\"Font Awesome 6 Free\"; color: #db386c{dot_icon};</span>"
+# )
+
+fn_text <- glue::glue(
+      '<<fontawesome::fa("info-circle", fill="#4d7ab0")>> Denim |
+       <<fontawesome::fa("info-circle", fill="#d06c4b")>> Herringbone | 
+      <<fontawesome::fa("info-circle", fill="#8c4772")>> Merchant Hall |
+      <<fontawesome::fa("info-circle", fill="#589157")>> Tweed |
+       <<fontawesome::fa("info-circle", fill="#9a9a9a")>> TBC |',
+      .open = "<<", .close = ">>"
+    )
+
+denim_fa <- fn_text <- glue::glue(
+      '<<fontawesome::fa("info-circle", fill={denim})>>',
+      .open = "<<", .close = ">>"
+    )
+
+herringbone_fa <- fn_text <- glue::glue(
+      '<<fontawesome::fa("info-circle", fill={herringbone})>>',
+      .open = "<<", .close = ">>"
+    )
+
+merchant_fa <- fn_text <- glue::glue(
+      '<<fontawesome::fa("info-circle", fill={merchant})>>',
+      .open = "<<", .close = ">>"
+    )
+
+tweed_fa <- fn_text <- glue::glue(
+      '<<fontawesome::fa("info-circle", fill={tweed})>>',
+      .open = "<<", .close = ">>"
+    )
+
+tbc_fa <- fn_text <- glue::glue(
+      '<<fontawesome::fa("info-circle", fill={tbc})>>',
+      .open = "<<", .close = ">>"
+    )
+```
+
+
+### Rooms
+
+```{r}
+#| label: rooms
+#| echo: false
+#| eval: true
+
+rooms <- tibble::tibble(
+  Room = c(
+    html(glue::glue(herringbone_fa, " Herringbone")),
+    html(glue::glue(tweed_fa, " Tweed")),
+    html(glue::glue(denim_fa, " Denim")),
+    html(glue::glue(merchant_fa, " Merchant's Hall")),
+    html(glue::glue(tbc_fa, " Other"))
+    ),
+  Capacity = c(300, 180, 84, 250, "--" )
+  ) 
+
+rooms |> gt() |> 
+  cols_align("left", Room) |>
+  gt_add_divider(
+    Room, "left", 
+    weight = px(1), color="#d3d3d3"
+    ) |> 
+    fmt_markdown(Room) |>
+    gt_theme_nytimes() |>
+    tab_options(data_row.padding = px(.5),
+              table.font.size = px(18),
+              column_labels.font.size = px(20), table.align="left", row_group.font.size = px(16)) 
+#               |>
+#    tab_footnote(
+#     html(fn_text)
+#   )
+
+```
+
+
+
+### Tuesday 9th April 2024
+
+```{r}
+#| label: program-tues
+#| echo: false
+#| eval: true
+
+day <- tibble::tibble(
+  Type = c(rep("ECR Workshop",4), "ECR Social"),
+  When = c(
+    "1300-1330",
+    "1330-1430",
+    "1430-1500",
+    "1500-1700",
+    "1800-"
+    ),
+  What = c(
+    "Welcome",
+    "Workshop 1",
+    "Coffee Break",
+    "Workshop 2",
+    "Dinner+Social"
+    ),
+  Where = c(html(denim_fa), html(denim_fa), html(merchant_fa), html(denim_fa), html(tbc_fa))
+  ) 
+
+day |>
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+  gt_add_divider(
+    What, "left", 
+    weight = px(1), color="#d3d3d3"
+    ) |> 
+    fmt_markdown(Where) |>
+    gt_theme_nytimes() |>
+    cols_align(align = "right", columns = Where) |>
+    tab_options(data_row.padding = px(.5),
+              table.font.size = px(18),
+              column_labels.font.size = px(20), table.align="left", row_group.font.size = px(16)) 
+#               |>
+#    tab_footnote(
+#     html(fn_text)
+#   )
+
+```
+
+### Wednesday 10th April 2024
+
+```{r}
+#| label: program-wed
+#| echo: false
+#| eval: true
+
+day <- tibble::tibble(
+  Type = c(
+    rep("ECR Workshop",3), 
+    rep("GISRUK Opens",3), 
+    rep("GISRUK Session 1",3),
+    rep("GISRUK Session 2",3),
+    "GISRUK Social"),
+  When = c(
+    "0930-1045",
+    "1045-1115",
+    "1115-1230",
+    "1100-1300",
+    "1300-1330",
+    "1330-1430",
+    "1430-1530",
+    "",
+    "1530-1600",
+    "1600-1700",
+    "",
+    "",
+    "1800-"
+    ),
+  What = c(
+    "Workshop 3",
+    "Coffee Break",
+    "Workshop 4",
+    "Registration+Lunch",
+    "Welcome",
+    "Keynote 1",
+    "Track A: ... ",
+    "Track B: ...",
+    "Coffee Break",
+    "Track A: ... ",
+    "Track B: ...",
+    "",
+    "Conference reception"
+    ),
+    Detail = rep("...",13),
+    Where = c(
+      html(denim_fa), 
+      html(merchant_fa),
+      html(denim_fa), 
+      html(merchant_fa),
+      html(herringbone_fa), 
+      html(herringbone_fa), 
+      html(herringbone_fa), 
+      html(tweed_fa),
+      html(merchant_fa),
+      html(herringbone_fa), 
+      html(tweed_fa),
+      "",
+      html(merchant_fa))
+)
+
+
+day |>
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+  gt_add_divider(
+    What, "left", 
+    weight = px(1), color="#d3d3d3"
+    ) |> 
+    fmt_markdown(Where) |>
+    gt_theme_nytimes() |>
+    cols_align(align = "right", columns = Where) |>
+   tab_options(data_row.padding = px(.5),
+              table.font.size = px(18),
+              column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) 
+#               |>
+#    tab_footnote(
+#     html(fn_text)
+#   )
+
+```
+
+### Thursday 11th April 2024
+
+```{r}
+#| label: program-thu
+#| echo: false
+#| eval: true
+
+day <- tibble::tibble(
+  Type = c(
+    rep("GISRUK Session 3",3), 
+    rep("GISRUK Session 4",3), 
+    rep("GISRUK Lunch | Posters | Keynote",2),
+    rep("GISRUK Session 5",4),
+    rep("GISRUK Session 6",2),
+    "GISRUK Social"),
+  When = c(
+    "0930-1030",
+    "",
+    "1030-1045",
+    "1045-1145",
+    "",
+    "",
+    "1145-1330",
+    "1330-1430",
+    "1430-1530",
+    "",
+    "",
+    "1530-1600",
+    "1600-1700",
+    "",
+    "1800-"
+    ),
+  What = c(
+    "Track A: ...",
+    "Track B: ...",
+    "Coffee Break",
+    "Track A: ...",
+    "Track B: ...",
+    "Track C: ...",
+    "Lunch + Posters",
+    "Keynote 2",
+    "Track A: ...",
+    "Track B: ...",
+    "Track C: ...",
+    "Coffee Break",
+    "Track A: ... ",
+    "Track B: ...",
+    "Conference reception"
+    ),
+    Detail = rep("...",15),
+    Where = c(
+      html(herringbone_fa), 
+      html(tweed_fa), 
+      html(merchant_fa),
+      html(herringbone_fa), 
+      html(tweed_fa),
+      html(denim_fa), 
+      html(merchant_fa),
+      html(herringbone_fa), 
+      html(herringbone_fa), 
+       html(tweed_fa),
+      html(denim_fa), 
+      html(merchant_fa),
+      html(herringbone_fa), 
+      html(tweed_fa),
+      html(tbc_fa))
+)
+
+
+day |>
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+  gt_add_divider(
+    What, "left", 
+    weight = px(1), color="#d3d3d3"
+    ) |> 
+    fmt_markdown(Where) |>
+    gt_theme_nytimes() |>
+    cols_align(align = "right", columns = Where) |>
+   tab_options(data_row.padding = px(.5),
+              table.font.size = px(18),
+              column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) 
+
+```
+
+### Friday 12th April 2024
+
+```{r}
+#| label: program-fri
+#| echo: false
+#| eval: true
+
+day <- tibble::tibble(
+  Type = c(
+    rep("GISRUK Session 7",3), 
+    rep("GISRUK Session 8",3), 
+    rep("Close",2)),
+  When = c(
+    "0930-1030",
+    "",
+    "1030-1045",
+    "1045-1145",
+    "",
+    "1145-1200",
+    "1200-1300",
+    "1300-1330"
+    ),
+  What = c(
+    "Track A: ...",
+    "Track B: ...",
+    "Coffee Break",
+    "Track A: ...",
+    "Track B: ...",
+    "Coffee Break",
+    "Keynote 3",
+    "Awards and Close"
+    ),
+    Detail = rep("...",8),
+    Where = c(
+      html(herringbone_fa), 
+      html(tweed_fa), 
+      html(merchant_fa),
+      html(herringbone_fa), 
+      html(tweed_fa), 
+      html(merchant_fa),
+      html(herringbone_fa), 
+      html(herringbone_fa))
+)
+
+
+
+day |>
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+  gt_add_divider(
+    What, "left", 
+    weight = px(1), color="#d3d3d3"
+    ) |> 
+    fmt_markdown(Where) |>
+    gt_theme_nytimes() |>
+    cols_align(align = "right", columns = Where) |>
+   tab_options(data_row.padding = px(.5),
+              table.font.size = px(18),
+              column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) 
+
+```
