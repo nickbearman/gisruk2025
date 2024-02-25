@@ -201,7 +201,7 @@ gt(groupname_col = "Type") |>
     tab_options(data_row.padding = px(.2),
               table.font.size = px(18),
               column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
-    cols_width(matches("When") ~ px(150)) |>
+    cols_width(matches("When") ~ px(200)) |>
     tab_style(
       style = cell_borders(
           sides = c("bottom"),  
@@ -230,7 +230,7 @@ gt(groupname_col = "Type") |>
     tab_options(data_row.padding = px(.2),
               table.font.size = px(18),
               column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
-    cols_width(matches("When") ~ px(150)) |>
+    cols_width(matches("When") ~ px(200)) |>
     tab_style(
       style = cell_borders(
           sides = c("bottom"),  
@@ -255,7 +255,7 @@ gt(groupname_col = "Type") |>
    gt_theme_gisruk() |>
     fmt_markdown(columns=c(Where, What)) |>
     cols_align(align = "right", columns = Where) |>
-   cols_width(matches("When") ~ px(150)) |>
+   cols_width(matches("When") ~ px(200)) |>
    tab_options(data_row.padding = px(.5),
               table.font.size = px(18),
               column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
