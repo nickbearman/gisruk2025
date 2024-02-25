@@ -172,6 +172,7 @@ rooms |> gt() |>
 #| label: program-tues
 #| echo: false
 #| eval: true
+#| classes: no-stripe
 days |> filter(Day=="Tue") |> select(When, What, Where, Type) |>
 gt(groupname_col = "Type") |> 
   cols_align("left", Type) |>
