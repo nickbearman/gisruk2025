@@ -2,10 +2,18 @@
 title: "Conference Programme"
 ---
 
+```{css echo=FALSE}
+.no-stripe .gt_table tr.odd {
+  --bs-table-striped-bg: transparent;
+}
+```
+
+
 ```{r}
 #| echo: false
 #| warning: false
 #| eval: true
+#| classes: no-stripe
 library(gt)
 library(gtExtras)
 library(fontawesome)
@@ -125,8 +133,6 @@ gt_theme_gisruk <- function(data,...) {
   ) |>
   tab_header(title="",subtitle = html(fn_text))
 }
-
-
 ```
 
 
@@ -136,6 +142,7 @@ gt_theme_gisruk <- function(data,...) {
 #| label: rooms
 #| echo: false
 #| eval: true
+#| classes: no-stripe
 rooms <- tibble::tibble(
   Room = c(
     html(glue::glue(herringbone_fa, " Herringbone")),
@@ -182,6 +189,7 @@ gt(groupname_col = "Type") |>
 #| label: program-wed
 #| echo: false
 #| eval: true
+#| classes: no-stripe
 days |> filter(Day=="Wed") |> select(When, What, Where, Type) |> 
 gt(groupname_col = "Type") |> 
   cols_align("left", Type) |>
@@ -209,6 +217,7 @@ gt(groupname_col = "Type") |>
 #| label: program-thu
 #| echo: false
 #| eval: true
+#| classes: no-stripe
 
 days |> filter(Day=="Thu") |> select(When, What, Where, Type) |> 
 gt(groupname_col = "Type") |> 
@@ -238,6 +247,7 @@ gt(groupname_col = "Type") |>
 #| label: program-fri
 #| echo: false
 #| eval: true
+#| classes: no-stripe
 days |> filter(Day=="Fri") |> select(When, What, Where, Type) |>
 gt(groupname_col = "Type") |> 
   cols_align("left", Type) |>
