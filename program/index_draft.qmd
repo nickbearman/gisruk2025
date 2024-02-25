@@ -70,8 +70,8 @@ link_fa <- glue(
 days <- read_csv("program.csv") |> 
   mutate(
     across(c(When), ~if_else(is.na(.x), "", .x)),
-    Paper=pmap_chr(list(Title, Author, Paper),
-     ~html(glue("<a href='url' style='font-size:11pt'>{link_fa}</a><span style='font-style:italic; font-size:11.5pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
+    Paper=pmap_chr(list(Title, Author, Link),
+     ~html(glue("<a href='{..3}' style='font-size:11pt'>{link_fa}</a><span style='font-style:italic; font-size:11.5pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
      ),
      Paper=case_when(
       !is.na(Track) ~ Track,
