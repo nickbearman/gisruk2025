@@ -77,9 +77,9 @@ days <- read_csv("program.csv") |>
       !is.na(Track) ~ Track,
       !is.na(Author) ~ Paper,
       TRUE ~ What),
-     Where=case_when(
+     Room=case_when(
       !is.na(Author) ~ "",
-      TRUE ~ Where
+      TRUE ~ Room
      )) |>
      select(-What) |> rename(What=Paper)
 
@@ -173,12 +173,13 @@ rooms |> gt() |>
 #| echo: false
 #| eval: true
 #| classes: no-stripe
-days |> filter(Day=="Tue") |> select(When, What, Where, Type) |>
+days |> filter(Day=="Tue") |> select(When, What, Room, Type) |>
 gt(groupname_col = "Type") |> 
   cols_align("left", Type) |>
-    fmt_markdown(Where) |>
+    fmt_markdown(Room) |>
     gt_theme_gisruk() |>
-    cols_align(align = "right", columns = Where) |>
+    cols_align(align = "right", columns = Room) |>
+    cols_width(matches("When") ~ pct(15)) |>
     tab_options(data_row.padding = px(.5),
               table.font.size = px(18),
               column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) 
@@ -191,13 +192,13 @@ gt(groupname_col = "Type") |>
 #| echo: false
 #| eval: true
 #| classes: no-stripe
-days |> filter(Day=="Wed") |> select(When, What, Where, Type) |> 
+days |> filter(Day=="Wed") |> select(When, What, Room, Type) |> 
+rename(R=Room) |>
 gt(groupname_col = "Type") |> 
   cols_align("left", Type) |>
-  # gt_add_divider( What, "left",  weight = px(1), color="#d3d3d3") |> 
-    fmt_markdown(columns=c(Where, What)) |>
+    fmt_markdown(columns=c(R, What)) |>
     gt_theme_gisruk() |>
-    cols_align(align = "right", columns = Where) |>
+    cols_align(align = "right", columns = R) |>
     tab_options(data_row.padding = px(.2),
               table.font.size = px(18),
               column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
@@ -220,13 +221,13 @@ gt(groupname_col = "Type") |>
 #| eval: true
 #| classes: no-stripe
 
-days |> filter(Day=="Thu") |> select(When, What, Where, Type) |> 
+days |> filter(Day=="Thu") |> select(When, What, Room, Type) |> 
+rename(R=Room) |>
 gt(groupname_col = "Type") |> 
   cols_align("left", Type) |>
-  # gt_add_divider( What, "left",  weight = px(1), color="#d3d3d3") |> 
-    fmt_markdown(columns=c(Where, What)) |>
+    fmt_markdown(columns=c(R, What)) |>
     gt_theme_gisruk() |>
-    cols_align(align = "right", columns = Where) |>
+    cols_align(align = "right", columns = R) |>
     tab_options(data_row.padding = px(.2),
               table.font.size = px(18),
               column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
@@ -249,12 +250,13 @@ gt(groupname_col = "Type") |>
 #| echo: false
 #| eval: true
 #| classes: no-stripe
-days |> filter(Day=="Fri") |> select(When, What, Where, Type) |>
+days |> filter(Day=="Fri") |> select(When, What, Room, Type) |> 
+rename(R=Room) |>
 gt(groupname_col = "Type") |> 
   cols_align("left", Type) |>
-   gt_theme_gisruk() |>
-    fmt_markdown(columns=c(Where, What)) |>
-    cols_align(align = "right", columns = Where) |>
+    fmt_markdown(columns=c(R, What)) |>
+    gt_theme_gisruk() |>
+    cols_align(align = "right", columns = R) |>
    cols_width(matches("When") ~ pct(15)) |>
    tab_options(data_row.padding = px(.5),
               table.font.size = px(18),
