@@ -1,5 +1,0 @@
----
-title: ECR Sessions
----
-
-Details to appear soon.

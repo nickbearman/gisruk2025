@@ -1,3 +1,292 @@
 ---
 title: "Conference Programme"
 ---
+
+::: {.callout-note icon=true}
+
+## This programme is in DRAFT
+
+Timings and room scheduling may be subject to change. Links to the conference proceedings will be added once they are up on [zenodo.org](https://zenodo.org/).
+:::
+
+
+
+```{css echo=FALSE}
+.no-stripe .gt_table tr.odd {
+  --bs-table-striped-bg: transparent;
+}
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| eval: true
+#| classes: no-stripe
+library(gt)
+library(gtExtras)
+library(fontawesome)
+library(dplyr)
+library(readr)
+library(glue)
+library(purrr)
+
+denim <- "#4d7ab0"
+herringbone <- "#d06c4b"
+merchant <- "#8c4772"
+tweed <- "#589157"
+tbc <- "#9a9a9a"
+
+fn_text <- glue(
+      '<<fontawesome::fa("info-circle", fill="#4d7ab0")>> Denim |
+       <<fontawesome::fa("info-circle", fill="#d06c4b")>> Herringbone | 
+      <<fontawesome::fa("info-circle", fill="#8c4772")>> Merchant Hall |
+      <<fontawesome::fa("info-circle", fill="#589157")>> Tweed |
+       <<fontawesome::fa("info-circle", fill="#9a9a9a")>> TBC ',
+      .open = "<<", .close = ">>"
+    )
+
+denim_fa <- glue(
+      '<<fontawesome::fa("info-circle", fill={denim})>>',
+      .open = "<<", .close = ">>"
+    )
+
+herringbone_fa <- glue(
+      '<<fontawesome::fa("info-circle", fill={herringbone})>>',
+      .open = "<<", .close = ">>"
+    )
+
+merchant_fa <- glue(
+      '<<fontawesome::fa("info-circle", fill={merchant})>>',
+      .open = "<<", .close = ">>"
+    )
+
+tweed_fa <- glue(
+      '<<fontawesome::fa("info-circle", fill={tweed})>>',
+      .open = "<<", .close = ">>"
+    )
+
+tbc_fa <-  glue(
+      '<<fontawesome::fa("info-circle", fill={tbc})>>',
+      .open = "<<", .close = ">>"
+    )
+
+link_fa <- glue(
+      '<<fontawesome::fa("link")>>',
+      .open = "<<", .close = ">>"
+    )
+
+days <- read_csv("program_sandpit.csv") |> 
+  mutate(
+    across(c(When), ~if_else(is.na(.x), "", .x)),
+     Paper=pmap_chr(list(Title, Author, Link),
+     ~html(glue("<a href='{..3}' style='font-size:11pt'>{link_fa}</a><span style='font-style:italic; font-size:11.5pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
+     ),
+    #Paper=pmap_chr(list(Title, Author, Link),
+     #~html(glue("<span style='font-style:italic; font-size:11.5pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
+    #),
+     Paper=case_when(
+      !is.na(Track) ~ Track,
+      !is.na(Author) ~ Paper,
+      TRUE ~ What),
+     Room=case_when(
+      !is.na(Author) ~ "",
+      TRUE ~ Room
+     )) |>
+     select(-What) |> rename(What=Paper)
+
+# From https://rpubs.com/kaustav/table_contest_2020
+gt_theme_gisruk <- function(data,...) {
+  data |>
+  opt_all_caps()  |>
+  opt_table_font(
+    font = list(
+      google_font("Jost"),
+      default_fonts()
+    )
+  ) |>
+    tab_style(
+      style = cell_borders(
+        sides = "bottom", color = "transparent", weight = px(1)
+      ),
+      locations = cells_body(
+        columns = everything(),
+        # This is a relatively sneaky way of changing the bottom border
+        # Regardless of data size
+        rows = nrow(data$`_data`)
+      )
+    )  |>
+  tab_options(
+    column_labels.background.color = "white",
+    table.border.top.width = px(1),
+    table.border.top.color = "transparent",
+    table.border.bottom.color = "transparent",
+    row_group.border.top.width = px(1),
+    table.border.bottom.width = px(1),
+    column_labels.border.top.width = px(1),
+    column_labels.border.top.color = "transparent",
+    column_labels.border.bottom.width = px(2),
+    column_labels.border.bottom.color = "black",
+    data_row.padding = px(1),
+    source_notes.font.size = 12,
+    table.font.size = 16,
+    heading.align = "left",
+    heading.border.bottom.width = px(1),
+    ...
+  ) |>
+  tab_style(
+      style=list(
+        cell_borders(
+          sides = c("bottom"),  
+          weight = px(2),
+          color ="white"),
+      cell_fill(color="#eeeeee")),
+     locations = cells_row_groups()
+  ) |>
+  tab_header(title="",subtitle = html(fn_text))
+}
+```
+
+
+### Rooms
+
+```{r}
+#| label: rooms
+#| echo: false
+#| eval: true
+#| classes: no-stripe
+rooms <- tibble::tibble(
+  Room = c(
+    html(glue::glue(herringbone_fa, " Herringbone")),
+    html(glue::glue(tweed_fa, " Tweed")),
+    html(glue::glue(denim_fa, " Denim")),
+    html(glue::glue(merchant_fa, " Merchant's Hall")),
+    html(glue::glue(tbc_fa, " Other"))
+    ),
+  Capacity = c(300, 180, 84, 250, "--" )
+  ) 
+
+rooms |> gt() |> 
+  cols_align("left", Room) |>
+    fmt_markdown(Room) |>
+    gt_theme_gisruk() |>
+    tab_options(data_row.padding = px(.5),
+              table.font.size = px(18),
+              column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
+    tab_header(title="",subtitle = "")
+```
+
+
+
+### Tuesday 9th April 2024
+
+```{r}
+#| label: program-tues
+#| echo: false
+#| eval: true
+#| classes: no-stripe
+days |> filter(Day=="Tue") |> select(When, What, Room, Type) |>
+rename(R=Room) |>
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+    fmt_markdown(c(R, What)) |>
+    gt_theme_gisruk() |>
+    cols_align(align = "right", columns = R) |>
+    cols_width(matches("When") ~ pct(13)) |>
+    cols_width(matches("What") ~ pct(80)) |>
+    tab_options(data_row.padding = px(.5),
+              table.font.size = px(18),
+              column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16))  #|>
+              #tab_header(title=html("<span style='font-weight:bold; #font-size:20pt'>Tue 9th April</span>"), subtitle = html(fn_text)) |>
+```
+
+### Wednesday 10th April 2024
+
+```{r}
+#| label: program-wed
+#| echo: false
+#| eval: true
+#| classes: no-stripe
+days |> filter(Day=="Wed") |> select(When, What, Room, Type) |> 
+rename(R=Room) |>
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+    fmt_markdown(columns=c(R, What)) |>
+    gt_theme_gisruk() |>
+    cols_align(align = "right", columns = R) |>
+    tab_options(data_row.padding = px(.2),
+              table.font.size = px(18),
+              column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
+    cols_width(matches("When") ~ pct(13)) |>
+    cols_width(matches("What") ~ pct(80)) |>
+    tab_style(
+      style = cell_borders(
+          sides = c("bottom"),  
+          weight = px(1), 
+          color ="white"
+          ),
+          locations = cells_body(rows = c(1,5,7,8,9,11,12,13,16,17,18,20,21,22))
+    ) #|>
+       #       tab_header(title=html("<span style='font-weight:bold; font-size:20pt'>Wed 10th April</span>"), subtitle = html(fn_text)) |>
+```
+
+### Thursday 11th April 2024
+
+```{r}
+#| label: program-thu
+#| echo: false
+#| eval: true
+#| classes: no-stripe
+
+days |> filter(Day=="Thu") |> select(When, What, Room, Type) |> 
+rename(R=Room) |>
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+    fmt_markdown(columns=c(R, What)) |>
+    gt_theme_gisruk() |>
+    cols_align(align = "right", columns = R) |>
+    tab_options(data_row.padding = px(.2),
+              table.font.size = px(18),
+              column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
+      cols_width(matches("When") ~ pct(13)) |>
+    cols_width(matches("What") ~ pct(80)) |>
+    tab_style(
+      style = cell_borders(
+          sides = c("bottom"),  
+          weight = px(1), 
+          color ="white"
+          ),
+          locations = cells_body(rows = c(1,2,3,5,6,7,10,11,12,14,15,16,18,19,20,23,24,25,26,27,29,30,31,33,34,35,38,39,40,42,43,44)) 
+    )  #|>
+             # tab_header(title=html("<span style='font-weight:bold; #font-size:20pt'>Thu 11th April</span>"), subtitle = html(fn_text))  |>
+```
+
+### Friday 12th April 2024
+
+```{r}
+#| label: program-fri
+#| echo: false
+#| eval: true
+#| classes: no-stripe
+days |> filter(Day=="Fri") |> select(When, What, Room, Type) |> 
+rename(R=Room) |>
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+    fmt_markdown(columns=c(R, What)) |>
+    gt_theme_gisruk() |>
+    cols_align(align = "right", columns = R) |>
+    cols_width(matches("When") ~ pct(13)) |>
+    cols_width(matches("What") ~ pct(80)) |>
+   tab_options(data_row.padding = px(.5),
+              table.font.size = px(18),
+              column_labels.font.size = px(18), table.align="left", row_group.font.size = px(16)) |>
+  tab_style(
+      style = cell_borders(
+          sides = c("bottom"),  
+          weight = px(1), 
+          color ="white"
+          ),
+          locations = cells_body(rows = c(1,2,3,5,6,7,10,11,12,14,15,16)) 
+    ) #|>
+     # tab_header(title=html("<span style='font-weight:bold; font-size:20pt'>Fri 12th April</span>"), subtitle = html(fn_text)) |>
+```

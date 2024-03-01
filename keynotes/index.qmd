@@ -2,4 +2,46 @@
 title: Keynote Speakers
 ---
 
-Details to come soon.
+<br>
+
+::: {.grid}
+
+::: {.g-col-3}
+![](ntg.jpg)
+:::
+
+::: {.g-col-9}
+**Natalia Tejedor Garavito** is a Principal Enterprise Fellow at the University of Southampton and leads the Geospatial Data and Analysis Team in the [WorldPop](https://www.worldpop.org/#) programme.  Her expertise is in advanced applications of GIS, with focus on spatial demography to support decision-making processes, particularly in low- and middle-income countries, producing high resolution, open and contemporary data, mainly on projects related to reproductive, maternal, newborn, child, and adolescence health. She also leads the development of sophisticated analytical tools and provides capacity-building aimed at empowering local stakeholders to utilize spatial data effectively in their decision-making processes, facilitating knowledge transfer and fostering enduring partnerships with international stakeholders. Her experience includes collaborations with governments, academic and non-academic institutions, and NGOs around the world. 
+:::
+
+:::
+---------------------------------
+
+::: {.grid}
+
+::: {.g-col-3}
+![](morris.png)
+:::
+
+::: {.g-col-9}
+**Michelle Morris** is an interdisciplinary researcher with a background spanning: health informatics, geography, nutritional epidemiology and health economics. Michelle leads the Nutrition and Lifestyle Analytics team at Leeds, focused on the use of new forms of 'big' and spatial data in health research, working closely with industry partners on food and activity data. Her research focuses on how new and emerging forms of data and data science methods can be best utilised to understand diet and lifestyle and their impacts on population health and planetary health. Michelle is a Fellow of the Alan Turing Institute and the Academic Chair for the [LIDA Data Science Development Programme](https://lida.leeds.ac.uk/data-scientist-development-programme/) which champions data science for public good and leads on improving Equality, diversity and inclusion in the data science workforce.
+
+:::
+
+:::
+
+
+-----------------------------------
+
+::: {.grid}
+
+::: {.g-col-3}
+![](ljw.jpg)
+:::
+
+::: {.g-col-9}
+[**Levi John Wolf**](https://www.ljwolf.org/) is Associate Professor in Spatial Analysis at the University of Bristol’s Quantitative Spatial Science Lab. He works in spatial data science, building new methods and software to learn new things about social and environmental processes. The techniques developed are used across urban planning, political science, economics, public health, astronomy, and genomics to understand things like commuting, infill development, deprivation, voting, redistricing, industrial clusters, disease transmission, and anomaly detection in images. Levi is a core maintainer of [geopandas](https://geopandas.org/en/stable/), author of [CenPy](https://github.com/ljwolf/cenpy) and co-maintainer of [PySAL](https://github.com/pysal/pysal). He has recently written [Geographic Data Science with Python](https://geographicdata.science/book/intro.html), with Dani Arribas-Bel and Sergio Rey. He has industry experience at [Nextdoor](https://nextdoor.com/), [CARTO](https://carto.com/) and [Mondial Relay](https://www.mondialrelay.fr/).
+ 
+:::
+
+:::
