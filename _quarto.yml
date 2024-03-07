@@ -37,6 +37,8 @@ website:
             text: Conference Programme
           - href: keynotes/
             text: Keynote Speakers
+          - href: ecrs/
+            text: ECR Sessions
       - href: organisation/
         text: Organisation
       - href: venue/
