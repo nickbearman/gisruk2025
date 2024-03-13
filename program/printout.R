@@ -9,6 +9,7 @@ library(magick)
 library(ggplot2)
 library(ggtext)
 library(showtext)
+library(stringr)
 sysfonts::font_add_google("Jost", "jost", regular.wt=500)
 showtext_auto() 
 ## turn off if no longer needed
@@ -62,6 +63,8 @@ link_fa <- glue(
 
 days <- read_csv("program/program_sandpit.csv") |> 
   mutate(
+    Author=if_else(is.na(IsSolo) & !is.na(Author), paste0(Author, ", ", CoAuthor), Author),
+    Title=str_to_title(Title), 
     across(c(When), ~if_else(is.na(.x), "", .x)),
     Paper=pmap_chr(list(Title, Author, Link),
      ~html(glue("<span style='font-style:italic; font-size:14pt'> {..1}</span><br><span style='font-style:italic; font-size:13.5pt'>--&nbsp;{..2}</span>"))
@@ -269,6 +272,20 @@ gt(groupname_col = "Type") |>
     gtsave("program/fri.png", expand = 10)
 
 
+days |> filter(Day=="Poster") |> select(When, What, Type) |> 
+gt(groupname_col = "Type") |> 
+  cols_align("left", Type) |>
+    fmt_markdown(columns=c(What)) |>
+    gt_theme_gisruk() |>
+    #cols_align(align = "right", columns = R) |>
+   cols_width(matches("When") ~ pct(13)) |>
+   cols_width(matches("What") ~ pct(87)) |>
+   tab_options(data_row.padding = px(.5),
+              table.font.size = px(23),
+              column_labels.font.size = px(22), table.align="left", row_group.font.size = px(22)) |>
+     tab_header(title=html("<span style='font-weight:bold; font-size:19pt'>Posters: Thu 11th April, 1145--1330</span>")) |>
+    gtsave("program/posters.png", expand = 10)
+
 
 
 tue <- image_read("program/tue.png") |> 
@@ -294,6 +311,30 @@ sponsors <- image_read("program/sponsors.png") |>
   as.raster() 
 
 room <- image_read("program/tue_room.png") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+os_logo <- image_read("img/logos/OS_logo.jpg") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+esri_logo <- image_read("img/logos/Esri_UK_Emblem_tag_sRGB.png") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+ai_logo <- image_read("img/logos/logo_ati.png") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+osgeo_logo <- image_read("img/logos/OSGeoUK2.png") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+cdrc_logo <- image_read("img/logos/logo_cdrc.webp") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+rgs_logo <- image_read("img/logos/logo_rgs.webp") |> 
   image_fill('none') |> 
   as.raster() 
 
@@ -349,12 +390,41 @@ p <- ggplot() +
   ) 
 ggsave("program/printout.png", p, width=10, height=14.1, dpi=700)
 
+poster_img <- image_read("program/posters.png") |> 
+  image_fill('none') |> 
+  as.raster()
+
+dinner <- "-- The Faversham, 1-5 Springfield Mount, Woodhouse, Leeds LS2 9NG"
+venue <- "-- Cloth Court Hall, Cloth Hall Court, Quebec Street, LS1 2HA"
+gisruk_bp <- "-- GISRUK Best Paper, see 2024.gisruk.org for voting" 
+os_open <- "-- GISRUK & OSGeo:UK GoFundGeo Award, see 2024.gisruk.org/osgeo/"
+casa <- "-- CASA Best Spatial Analysis Paper, in mem. Sinesio Alves Junior (1967-2010)"
+epb <- "-- Environment & Planning B Urban Data:Code, see 2024.gisruk.org/si/"
+
 p <- ggplot() +
-  annotation_raster(fri, .02, .42, .7, 1.258) +
+  annotation_raster(fri, .02, .49, .59, 1.258) +
   annotation_raster(room, .02, .3, 1.305, 1.32) +
+  annotation_raster(poster_img, .53, .98, .36, 1.34) +
+  annotation_raster(os_logo, .02, .35, .15, .25) +
+  annotation_raster(esri_logo, .36, .72, .13, .27) +
+  annotation_raster(ai_logo, .02, .15, .04, .1) +
+  annotation_raster(osgeo_logo, .16, .35, .03, .11) +
+  annotation_raster(rgs_logo, .38, .52, .03, .12) +
+  annotation_raster(cdrc_logo, .58, .82, .04, .12) +
   annotate("richtext", x=.02, y=1.285, label="**GISRUK Conference**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=30) +
+  annotate("richtext", x=.52, y=1.38, label="**GISRUK Posters: Thu 11th April**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=30) +
   annotate("richtext", x=.02, y=1.39, label=conf, fill = NA, label.color = NA, hjust="left", vjust="top") +
   annotate("richtext", x=.02, y=1.36, label=web, fill = NA, label.color = NA, hjust="left", vjust="top") +
+  annotate("richtext", x=.02, y=.56, label="**GISRUK SI**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.54, label=epb, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.51, label="**Awards**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.49, label=gisruk_bp, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.47, label=os_open, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.45, label=casa, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.415, label="**Main venue**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.395, label=venue, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.365, label="**Dinner venue**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.345, label=dinner, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
   #annotate("richtext", x=.98, y=1.385, label=conf_theme, fill = NA, label.color = NA, hjust="right", vjust="top", size=36) +
   #annotation_raster(sponsors, .75, .98, 0, .07) +
   scale_x_continuous(limits=c(0, 1), expand=c(0,0)) +
