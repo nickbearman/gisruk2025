@@ -10,11 +10,10 @@ Registration is now open via [ **this link**  {{< fa solid link >}}](https://eu.
 
 |                              | Student  | Non-student |
 |------------------------------|----------|-------------|
-| Early bird (ends 18th March) | £185     | £250        |
+| Early bird (**ends 18th March**) | £185     | £250        |
 | Late (ends 1st April)        | £210     | £280        |
 
-
-<div class="inline"> <i class="fa-regular fa-bullhorn fa-beat-fade fa-xl" style="color:#b6545c; --fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i> &nbsp;  We have a number of fee waiver bursaries to support Early Career Researchers (especially PGRs) and/or underrepresented groups. If you would like to apply, **please complete [ this form   {{< fa solid pen-to-square >}}](https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y1I2HYK5iBtEj9M0G1W-2f5UMUFPSFVQSDM3Q1RUTlBXN1pTUk1XNlJMQS4u)** as soon as possible, and **by 4th March** at latest. To best prioritise based on need we ask that those who already have funding easily available from other sources do not apply. We will get back to confirm whether your application for the fee waiver was successful well in advance of the early-bird deadline. </div>
+See the [**draft prgram**](program/) . 
 
 :::
 

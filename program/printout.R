@@ -173,7 +173,7 @@ gt(groupname_col = "Type") |>
           color ="white"
           ),
           #locations = cells_body(rows = c(1, 4, 9,10,11,13,14,15, 18,19,20,22,23,24))) |>
-          locations = cells_body(rows = c(1, 4))) |>
+          locations = cells_body(rows = c(1))) |>
        tab_header(title=html("<span style='font-weight:bold; font-size:19pt'>Wed 10th April</span>")) |>
      gtsave("program/wed_workshop.png", expand = 10)
 
@@ -402,7 +402,7 @@ casa <- "-- CASA Best Spatial Analysis Paper, in mem. Sinesio Alves Junior (1967
 epb <- "-- Environment & Planning B Urban Data:Code, see 2024.gisruk.org/si/"
 
 p <- ggplot() +
-  annotation_raster(fri, .02, .49, .59, 1.258) +
+  annotation_raster(fri, .02, .45, .59, 1.258) +
   annotation_raster(room, .02, .3, 1.305, 1.32) +
   annotation_raster(poster_img, .53, .98, .36, 1.34) +
   annotation_raster(os_logo, .02, .35, .15, .25) +

@@ -30,6 +30,7 @@ library(dplyr)
 library(readr)
 library(glue)
 library(purrr)
+library(stringr)
 
 denim <- "#4d7ab0"
 herringbone <- "#d06c4b"
@@ -42,7 +43,7 @@ fn_text <- glue(
        <<fontawesome::fa("info-circle", fill="#d06c4b")>> Herringbone | 
       <<fontawesome::fa("info-circle", fill="#8c4772")>> Merchant Hall |
       <<fontawesome::fa("info-circle", fill="#589157")>> Tweed |
-       <<fontawesome::fa("info-circle", fill="#9a9a9a")>> TBC ',
+       <<fontawesome::fa("info-circle", fill="#9a9a9a")>> Other ',
       .open = "<<", .close = ">>"
     )
 
@@ -76,15 +77,14 @@ link_fa <- glue(
       .open = "<<", .close = ">>"
     )
 
-days <- read_csv("program_sandpit.csv") |> 
-  mutate(
+days <- read_csv("program.csv") |> 
+   mutate(
+    Author=if_else(is.na(IsSolo) & !is.na(Author), paste0(Author, ", ", CoAuthor), Author),
+    Title=str_to_title(Title), 
     across(c(When), ~if_else(is.na(.x), "", .x)),
-     Paper=pmap_chr(list(Title, Author, Link),
-     ~html(glue("<a href='{..3}' style='font-size:11pt'>{link_fa}</a><span style='font-style:italic; font-size:11.5pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
-     ),
-    #Paper=pmap_chr(list(Title, Author, Link),
-     #~html(glue("<span style='font-style:italic; font-size:11.5pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
-    #),
+    Paper=pmap_chr(list(Title, Author, Link),
+     ~html(glue("<a href='{..3}' style='font-size:11pt'>{link_fa}</a><span style='font-style:italic; font-size:12pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
+    ),
      Paper=case_when(
       !is.na(Track) ~ Track,
       !is.na(Author) ~ Paper,
@@ -94,6 +94,25 @@ days <- read_csv("program_sandpit.csv") |>
       TRUE ~ Room
      )) |>
      select(-What) |> rename(What=Paper)
+
+
+  # mutate(
+  #   across(c(When), ~if_else(is.na(.x), "", .x)),
+  #    Paper=pmap_chr(list(Title, Author, Link),
+  #    ~html(glue("<a href='{..3}' style='font-size:11pt'>{link_fa}</a><span style='font-style:italic; font-size:11.5pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
+  #    ),
+  #   #Paper=pmap_chr(list(Title, Author, Link),
+  #    #~html(glue("<span style='font-style:italic; font-size:11.5pt'> {..1}</span><br><span style='font-style:italic; font-size:11.5pt'>--&nbsp;{..2}</span>"))
+  #   #),
+  #    Paper=case_when(
+  #     !is.na(Track) ~ Track,
+  #     !is.na(Author) ~ Paper,
+  #     TRUE ~ What),
+  #    Room=case_when(
+  #     !is.na(Author) ~ "",
+  #     TRUE ~ Room
+  #    )) |>
+  #    select(-What) |> rename(What=Paper)
 
 # From https://rpubs.com/kaustav/table_contest_2020
 gt_theme_gisruk <- function(data,...) {
