@@ -61,7 +61,7 @@ link_fa <- glue(
       .open = "<<", .close = ">>"
     )
 
-days <- read_csv("program/program_sandpit.csv") |> 
+days <- read_csv("program/program.csv") |> 
   mutate(
     Author=if_else(is.na(IsSolo) & !is.na(Author), paste0(Author, ", ", CoAuthor), Author),
     Title=str_to_title(Title), 
@@ -338,6 +338,19 @@ rgs_logo <- image_read("img/logos/logo_rgs.webp") |>
   image_fill('none') |> 
   as.raster() 
 
+target_logo <- image_read("img/logos/target3d.png") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+isds_logo <- image_read("img/logos/isds.png") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+bcs_logo <- image_read("img/logos/british-cartographic-society.png") |> 
+  image_fill('none') |> 
+  as.raster() 
+
+
 
 sysfonts::font_add(
   family = "Iosevka", 
@@ -346,7 +359,7 @@ showtext_auto()
 ## turn off if no longer needed
 showtext_auto(FALSE)
 
-conf <- glue::glue("<span style='font-size:110.0pt; font-family:\"jost\"'>GISRUK 2024 | University of Leeds</span>")
+conf <- glue::glue("<span style='font-size:120.0pt; font-family:\"jost\"'>GISRUK 2024 | University of Leeds</span>")
 conf_web <- glue::glue("<span style='font-size:105.0pt; font-family:\"Iosevka\"'>2024.gisruk.org</span>")
 web <- glue::glue("<span style='font-size:105.0pt; font-family:\"Iosevka\"'>2024.gisruk.org</span>")
 
@@ -369,16 +382,16 @@ p <- ggplot() +
 ggsave("program/printout.png", p, width=10, height=14.1, dpi=700)
 
 p <- ggplot() +
-  annotation_raster(tue, .02, .42, 1.03, 1.258) +
-  annotation_raster(wed_works, .02, .44, .85, 1.03) +
-  annotation_raster(wed_conf, .02, .47, .095, .775) +
+  annotation_raster(tue, .02, .43, 1.04, 1.258) +
+  annotation_raster(wed_works, .02, .435, .91, 1.03) +
+  annotation_raster(wed_conf, .02, .45, .15, .82) +
   #annotation_raster(fri, 0.03, .458, 0, .58) +
   annotation_raster(thu, .53, .95, .02, 1.4) +
   annotation_raster(room, .02, .3, 1.305, 1.32) +
   scale_x_continuous(limits=c(0, 1), expand=c(0,0)) +
   scale_y_continuous(limits=c(0, 1.414), expand=c(0,0)) +
   annotate("richtext", x=.02, y=1.285, label="**ECR Workshops**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=30) +
-  annotate("richtext", x=.02, y=.805, label="**GISRUK Conference**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=30) +
+  annotate("richtext", x=.02, y=.855, label="**GISRUK Conference**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=30) +
   annotate("richtext", x=.02, y=1.39, label=conf, fill = NA, label.color = NA, hjust="left", vjust="top") +
   annotate("richtext", x=.02, y=1.36, label=web, fill = NA, label.color = NA, hjust="left", vjust="top") +
   #annotate("richtext", x=.98, y=1.385, label=conf_theme, fill = NA, label.color = NA, hjust="right", vjust="top", size=36) +
@@ -402,29 +415,34 @@ casa <- "-- CASA Best Spatial Analysis Paper, in mem. Sinesio Alves Junior (1967
 epb <- "-- Environment & Planning B Urban Data:Code, see 2024.gisruk.org/si/"
 
 p <- ggplot() +
-  annotation_raster(fri, .02, .45, .59, 1.258) +
+  annotation_raster(fri, .02, .45, .58, 1.258) +
   annotation_raster(room, .02, .3, 1.305, 1.32) +
-  annotation_raster(poster_img, .53, .98, .36, 1.34) +
-  annotation_raster(os_logo, .02, .35, .15, .25) +
-  annotation_raster(esri_logo, .36, .72, .13, .27) +
-  annotation_raster(ai_logo, .02, .15, .04, .1) +
-  annotation_raster(osgeo_logo, .16, .35, .03, .11) +
-  annotation_raster(rgs_logo, .38, .52, .03, .12) +
-  annotation_raster(cdrc_logo, .58, .82, .04, .12) +
+  annotation_raster(poster_img, .53, .98, .37, 1.34) +
+
+  annotation_raster(os_logo, .02, .29, .16, .24) +
+  annotation_raster(esri_logo, .31, .6, .16, .25) +
+  annotation_raster(cdrc_logo, .62, .88, .16, .24) +
+
+  annotation_raster(ai_logo, .02, .15, .06, .12) +
+  annotation_raster(osgeo_logo, .16, .35, .05, .13) +
+  annotation_raster(rgs_logo, .37, .5, .04, .13) +
+  annotation_raster(isds_logo, .53, .8, .04, .12) +
+  annotation_raster(target_logo, .82, .98, .06, .1) +
+  
   annotate("richtext", x=.02, y=1.285, label="**GISRUK Conference**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=30) +
   annotate("richtext", x=.52, y=1.38, label="**GISRUK Posters: Thu 11th April**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=30) +
   annotate("richtext", x=.02, y=1.39, label=conf, fill = NA, label.color = NA, hjust="left", vjust="top") +
   annotate("richtext", x=.02, y=1.36, label=web, fill = NA, label.color = NA, hjust="left", vjust="top") +
-  annotate("richtext", x=.02, y=.56, label="**GISRUK SI**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.54, label=epb, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.51, label="**Awards**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.49, label=gisruk_bp, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.47, label=os_open, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.45, label=casa, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.415, label="**Main venue**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.395, label=venue, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.365, label="**Dinner venue**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
-  annotate("richtext", x=.02, y=.345, label=dinner, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.53, label="**GISRUK SI**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.51, label=epb, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.48, label="**Awards**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.46, label=gisruk_bp, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.44, label=os_open, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.42, label=casa, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.385, label="**Main venue**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.365, label=venue, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.335, label="**Dinner venue**", fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
+  annotate("richtext", x=.02, y=.315, label=dinner, fill = NA, label.color = NA, hjust="left", vjust="top", family="Jost", size=26, text.color="#525252") +
   #annotate("richtext", x=.98, y=1.385, label=conf_theme, fill = NA, label.color = NA, hjust="right", vjust="top", size=36) +
   #annotation_raster(sponsors, .75, .98, 0, .07) +
   scale_x_continuous(limits=c(0, 1), expand=c(0,0)) +
