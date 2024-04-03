@@ -2,15 +2,6 @@
 title: "Conference Programme"
 ---
 
-::: {.callout-note icon=true}
-
-## This programme is in DRAFT
-
-Timings and room scheduling may be subject to change. Links to the conference proceedings will be added once they are up on [zenodo.org](https://zenodo.org/).
-:::
-
-
-
 ```{css echo=FALSE}
 .no-stripe .gt_table tr.odd {
   --bs-table-striped-bg: transparent;
