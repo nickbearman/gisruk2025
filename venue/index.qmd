@@ -36,19 +36,60 @@ the University of Leeds.
         maxZoom: 18
     }).addTo(mymap);
 
-    // Define locations
-    var locations = [
+    // Set up icons
+    var blueIcon = new L.Icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
+
+    var goldIcon = new L.Icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-gold.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
+
+    // Functions
+    // Adding an individual location to the map
+    function addLocation(location, iconType){
+        var marker = L.marker([location[1], location[2]], {icon: iconType}).addTo(mymap);
+        marker.bindPopup(location[0]);
+    }
+    
+    // Add a collection of maps
+    function addLocations(locations, iconType){
+        for (var i = 0; i < locations.length; i++) {
+            addLocation(locations[i], iconType);
+        }
+    }
+
+    // Define main locations
+    var main_locations = [
         ["<b>University</b><br>University of Leeds<br>Woodhouse Lane<br>Leeds<br>LS2 9JT", 53.806683, -1.555033],
         ["<b>Dinner Venue</b><br>The Faversham<br>1-5 Springfield Mount<br>Leeds<br>LS2 9NG", 53.804630, -1.556920],
         ["<b>Train Station</b><br>Leeds Station<br>New Station Street<br>Leeds<br>LS1 4DY", 53.795047, -1.547839],
         ["<b>Conference Venue</b><br>Cloth Hall Court<br>Quebec Street<br>Leeds<br>LS1 2HA", 53.7967454, -1.5487262]
     ];
 
-    // Add markers
-    for (var i = 0; i < locations.length; i++) {
-        var marker = L.marker([locations[i][1], locations[i][2]]).addTo(mymap);
-        marker.bindPopup(locations[i][0]);
-    }
+    // Define other locations
+    var other_locations = [
+        ["<br>The Bankers Cat<br>29 Boar Lane<br>Leeds<br>LS1 5DA", 53.795646, -1.545494],
+        ["<br>Below Stairs<br>12 South Parade<br>Leeds<br>LS1 5QS", 53.798944, -1.548283],
+        ["<br>North Taproom<br>3 Sovereign Square<br>Leeds<br>LS1 4BA", 53.794030, -1.543469],
+        ["<br>Tapped<br>51 Boar Lane<br>Leeds<br>LS1 5EL", 53.795830, -1.545680],
+        ["<br>The Northern Market<br>12 Great George Street<br>Leeds<br>LS1 3ED", 53.800658, -1.548787],
+        ["<br>Whitelock's Ale House & The Turk's Head<br>Turk's Head Yard<br>Leeds<br>LS1 6HB", 53.797163, -1.542885]
+    ];
+
+    // Add both types of locations to map
+    addLocations(main_locations, blueIcon);
+    addLocations(other_locations, goldIcon);
 
  </script>
 ```
