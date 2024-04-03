@@ -4,18 +4,20 @@ title: "GISRUK 2024 : University of Leeds"
 
 ::: {.callout-important icon=true}
 
-## Registration Open
-Registration is now open via [ **this link**  {{< fa solid link >}}](https://eu.eventscloud.com/ereg/index.php?eventid=200272788&).  
+### Rail Strikes and Late Registrations
 
+**Rail strikes 5th -- 8th April**.
+We've just spotted that industrial action  is scheduled 5th -- 8th April across the rail network -- [details here](https://www.nationalrail.co.uk/travel-information/industrial-action/). We *hope* that this won't cause too many problems before the ECR workshops on 9th April. The good news is that LNER and Cross Country are not affected by strikes on Monday 8th April,  but there may be some spillover disruption.
 
-|                              | Student  | Non-student |
-|------------------------------|----------|-------------|
-| Early bird (**ends 18th March**) | £185     | £250        |
-| Late (ends 1st April)        | £210     | £280        |
+**Late Registrations** .
+Registration is now closed, but please e-mail <a href="mailto:r.j.beecham@leeds.ac.uk">r.j.beecham@leeds.ac.uk </a> to request a late extension.
 
-See the [**draft programme**](program/) . 
+We're very much looking forward to seeing you in Leeds!
 
 :::
+
+
+---------
 
 Welcome to the 32nd Annual GIS Research UK Conference. The conference will be hosted at University of Leeds on **9th -- 12th April 2024**.
 
