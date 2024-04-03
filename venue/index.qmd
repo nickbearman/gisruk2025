@@ -3,7 +3,7 @@ title: Venue
 include-in-header: ../venue_header.html
 ---
 
-## Conference Venue: Cloth Hall Court
+## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) Conference Venue: Cloth Hall Court
 
 > Cloth Hall Court, Quebec Street, LS1 2HA
 
@@ -14,12 +14,14 @@ It is situated in the heart of the city, close to Leeds Train Station.
 
 More information about the venue can be found [here](https://conferencesandevents.leeds.ac.uk/cloth-hall-court/).
 
-## Dinner Venue: The Faversham
+## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) Dinner Venue: The Faversham
 
 > The Faversham, 1-5 Springfield Mount, LS2 9NG
 
 The conference dinner will be hosted at The Faversham, which is located close to
 the University of Leeds.
+
+## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-gold.png) Other Places...
 
 
 ## Map of Locations
