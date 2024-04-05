@@ -158,7 +158,7 @@ gt_theme_gisruk <- function(data,...) {
 ```
 
 
-### Rooms 
+### Rooms
 
 ```{r}
 #| label: rooms
