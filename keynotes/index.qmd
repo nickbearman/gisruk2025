@@ -24,7 +24,7 @@ title: Keynote Speakers
 :::
 
 ::: {.g-col-9}
-**Michelle Morris** is an interdisciplinary researcher with a background spanning: health informatics, geography, nutritional epidemiology and health economics. Michelle leads the Nutrition and Lifestyle Analytics team at Leeds, focused on the use of new forms of 'big' and spatial data in health research, working closely with industry partners on food and activity data. Her research focuses on how new and emerging forms of data and data science methods can be best utilised to understand diet and lifestyle and their impacts on population health and planetary health. Michelle is a Fellow of the Alan Turing Institute and the Academic Chair for the [LIDA Data Science Development Programme](https://lida.leeds.ac.uk/data-scientist-development-programme/) which champions data science for public good and leads on improving Equality, diversity and inclusion in the data science workforce.
+**Michelle Morris** is Professor of Data Science for Food in the School of Food Science and Nutrition at the University of Leeds and a Fellow of the Alan Turing Institute in London. She leads the interdisciplinary Nutrition and Lifestyle Analytics team which uses novel forms of data, including supermarket transaction records from a number of UK supermarkets, for research into lifestyle behaviours and health. She is Academic Chair of the Leeds Institute for Data Analytics Data Scientist Development Programme and is passionate about empowering others to use data for public good.  Michelle is an investigator at the ESRC funded Consumer Data Research Centre, the UKRI Transforming UK Food Systems funded FIO-Food and DIO-Food projects and PI for the IGD funded Healthy and Sustainable Diets programme.
 
 :::
 
