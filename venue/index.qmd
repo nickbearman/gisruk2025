@@ -28,6 +28,12 @@ the University of Leeds.
 The post-reception social on Wednesday evening will be hosted at Roxy Lanes,
 which is located on The Headrow.
 
+## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) ECR Social Venue: Parkside Tavern
+
+> Parkside Tavern, Merrion Street, LS2 8JE 
+
+The ECR social on Tuesday evening will be hosted at Parkside Tavern.
+
 ## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-gold.png) Other Places...
 
 Beyond the main conference venues outlined above, we have also curated a short
@@ -106,6 +112,7 @@ Parade, this cocktail bar boasts a unique menu worth checking out.
         ["<b>Dinner Venue</b><br>The Faversham<br>1-5 Springfield Mount<br>Leeds<br>LS2 9NG", 53.804630, -1.556920],
         ["<b>Train Station</b><br>Leeds Station<br>New Station Street<br>Leeds<br>LS1 4DY", 53.795047, -1.547839],
         ["<b>Conference Venue</b><br>Cloth Hall Court<br>Quebec Street<br>Leeds<br>LS1 2HA", 53.7967454, -1.5487262],
+        ["<b>ECR Social Venue</b><br>Parkside Tavern<br>Merrion Street<br>Leeds<br>LS2 8JE", 53.800532, -1.541985],
         ["<b>Post-Reception Social Venue</b><br>Roxy Lanes<br>44-48 The Headrow<br>Leeds<br>LS1 8TL", 53.799570, -1.545600]
     ];
 
