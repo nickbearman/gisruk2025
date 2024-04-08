@@ -21,7 +21,7 @@ More information about the venue can be found [here](https://conferencesandevent
 The conference dinner will be hosted at The Faversham, which is located close to
 the University of Leeds.
 
-## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) Post-Reception Social Venue: Roxy Lanes
+## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) Post-Reception Social Venue: Roxy Ball Room
 
 > Roxy Ball Room, 58 Boar Lane, LS1 6HW
 
