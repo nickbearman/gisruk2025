@@ -266,7 +266,18 @@ gt(groupname_col = "Type") |>
           weight = px(1), 
           color ="white"
           ),
-          locations = cells_body(rows = c(1,2,3,5,6,7,10,11,12,14,15,16,18,19,20,23,24,25,26,27,29,30,31,33,34,35,38,39,40,42,43,44)) 
+          locations = cells_body(rows = c(
+            2,3,4,
+            6,7,8,11,
+            11, 12,13,
+            15,16,17,
+            19,20,21,
+            24,
+            26,27,28,
+            30,31,32,
+            34,35,36,
+            39,40,41,
+            43,44, 45)) 
     )  #|>
              # tab_header(title=html("<span style='font-weight:bold; #font-size:20pt'>Thu 11th April</span>"), subtitle = html(fn_text))  |>
 ```
@@ -296,7 +307,7 @@ gt(groupname_col = "Type") |>
           weight = px(1), 
           color ="white"
           ),
-          locations = cells_body(rows = c(1,2,3,5,6,7,10,11,12,14,15,16,19)) 
+          locations = cells_body(rows = c(2,3,4,6,7,8,11,12,13,15,16,17,20)) 
     ) #|>
      # tab_header(title=html("<span style='font-weight:bold; font-size:20pt'>Fri 12th April</span>"), subtitle = html(fn_text)) |>
 ```
