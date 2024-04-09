@@ -21,6 +21,19 @@ More information about the venue can be found [here](https://conferencesandevent
 The conference dinner will be hosted at The Faversham, which is located close to
 the University of Leeds.
 
+## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) Post-Reception Social Venue: Roxy Ball Room
+
+> Roxy Ball Room, 58 Boar Lane, LS1 6HW
+
+The post-reception social on Wednesday evening will be hosted at Roxy Ball Room
+on Boar Lane just a few minutes walk from the conference venue.
+
+## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) ECR Social Venue: Parkside Tavern
+
+> Parkside Tavern, Merrion Street, LS2 8JE 
+
+The ECR social on Tuesday evening will be hosted at Parkside Tavern.
+
 ## ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-gold.png) Other Places...
 
 Beyond the main conference venues outlined above, we have also curated a short
@@ -98,7 +111,9 @@ Parade, this cocktail bar boasts a unique menu worth checking out.
         ["<b>University</b><br>University of Leeds<br>Woodhouse Lane<br>Leeds<br>LS2 9JT", 53.806683, -1.555033],
         ["<b>Dinner Venue</b><br>The Faversham<br>1-5 Springfield Mount<br>Leeds<br>LS2 9NG", 53.804630, -1.556920],
         ["<b>Train Station</b><br>Leeds Station<br>New Station Street<br>Leeds<br>LS1 4DY", 53.795047, -1.547839],
-        ["<b>Conference Venue</b><br>Cloth Hall Court<br>Quebec Street<br>Leeds<br>LS1 2HA", 53.7967454, -1.5487262]
+        ["<b>Conference Venue</b><br>Cloth Hall Court<br>Quebec Street<br>Leeds<br>LS1 2HA", 53.7967454, -1.5487262],
+        ["<b>ECR Social Venue</b><br>Parkside Tavern<br>Merrion Street<br>Leeds<br>LS2 8JE", 53.800532, -1.541985],
+        ["<b>Post-Reception Social Venue</b><br>Roxy Ball Room<br>58 Boar Lane<br>Leeds<br>LS1 6HW", 53.795810, -1.544970]
     ];
 
     // Define other locations
