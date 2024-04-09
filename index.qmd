@@ -6,11 +6,10 @@ title: "GISRUK 2024 : University of Leeds"
 
 ### Welcome and ECR Lunch
 
-**Welcome**. We very much looking forward to seeing you in Leeds! Keep an eye out on this page as we post further updates in the next few days. See also a curated a list of [recommended places](https://2024.gisruk.org/venue/#other-places) nearby for food / drink. 
+**Welcome**. We very much looking forward to seeing you in Leeds! Keep an eye out on this page as we post further updates in the next few days. See also a curated a list of [{{< fa solid link >}}recommended places](https://2024.gisruk.org/venue/#other-places) nearby for food / drink. 
 
 
-<div class="inline"> <i class="fa-regular fa-bullhorn fa-beat-fade fa-xl" style="color:#b6545c; --fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i> &nbsp;  **ECR Lunch**. One update is that there is lunch today -- Tue 9th April -- on arrivel. This is scheduled 1315--1415, with an ECR workshop kick-off of 1415!  </div>
-
+<div class="inline"> <i class="fa-regular fa-bullhorn fa-beat-fade fa-xl" style="color:#b6545c; --fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i>  &nbsp;  **ECR Lunch**. One update is that there is lunch today -- Tue 9th April -- on arrival. This is scheduled 1315--1415, with an ECR workshop kick-off of 1415!  </div>
 
 :::
 
