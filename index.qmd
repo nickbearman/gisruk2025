@@ -4,15 +4,18 @@ title: "GISRUK 2024 : University of Leeds"
 
 ::: {.callout-important icon=true}
 
-### Welcome and ECR Lunch
+### Welcome, Lunch, Best Paper Voting, Socials
 
-**Welcome**. We very much looking forward to seeing you in Leeds! Keep an eye out on this page as we post further updates in the next few days. See also a curated a list of [{{< fa solid link >}}recommended places](https://2024.gisruk.org/venue/#other-places) nearby for food / drink. 
+**Welcome**. We very much looking forward to seeing you in Leeds! Keep an eye out on this page as we post further updates in the next few days. 
 
 
 <div class="inline"> <i class="fa-regular fa-bullhorn fa-beat-fade fa-xl" style="color:#b6545c; --fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i>  &nbsp;  **Welcome Lunch**. One update is that there is lunch today -- Wed 10th April -- on arrival. This is scheduled from c.1200.  </div>
 
 <br>
-**Best paper / poster prize**. As ever, there is voting for the [{{< fa solid link >}}Best Paper awards](https://forms.office.com/e/6nf8Ut36ZF). 
+**Best paper / poster prize**. As ever, there is voting for the [{{< fa solid link >}}Best Paper awards](https://forms.office.com/e/6nf8Ut36ZF).  
+
+
+**Socials**. Reception drinks are scheduled 1700-1800, immediately after today's session talks. We've booked out space at [Roxy Boar Lane](https://roxyleisure.co.uk/location/leeds-boar-lane/) from 1930, but see also a curated a list of [recommended places](https://2024.gisruk.org/venue/#other-places) nearby for food / drink. 
 
 
 :::
