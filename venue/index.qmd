@@ -61,6 +61,13 @@ beers.
 cocktails instead then Below Stairs is a hidden gem. Tucked away on South
 Parade, this cocktail bar boasts a unique menu worth checking out.
 
+Other places of interest include:
+
+* **Kirkgate Market:** Located on the East side of the city centre, Kirkgate
+  Market is one of largest covered markets in Europe and hosts a range of
+  vendors. If you are looking for a place for some food on Friday after the 
+  conference then it is worth checking out the market food court.
+
 ## Map of Locations
 
 ```{=html}
@@ -123,7 +130,8 @@ Parade, this cocktail bar boasts a unique menu worth checking out.
         ["<br>North Taproom<br>3 Sovereign Square<br>Leeds<br>LS1 4BA", 53.794030, -1.543469],
         ["<br>Tapped<br>51 Boar Lane<br>Leeds<br>LS1 5EL", 53.795830, -1.545680],
         ["<br>The Northern Market<br>12 Great George Street<br>Leeds<br>LS1 3ED", 53.800658, -1.548787],
-        ["<br>Whitelock's Ale House & The Turk's Head<br>Turk's Head Yard<br>Leeds<br>LS1 6HB", 53.797163, -1.542885]
+        ["<br>Whitelock's Ale House & The Turk's Head<br>Turk's Head Yard<br>Leeds<br>LS1 6HB", 53.797163, -1.542885],
+        ["<br>Kirkgate Market<br>Vicar Lane<br>Leeds<br>LS2 7HY", 53.797213, -1.540038]
     ];
 
     // Add both types of locations to map
