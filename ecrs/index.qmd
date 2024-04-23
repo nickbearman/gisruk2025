@@ -48,5 +48,7 @@ This workshop will leverage the following R packages for an in-depth GIS analysi
 * exactextractr;
 * tidyterra
 
+## Slides
 
-
+* [ Publication Workshop (Paul Norman) {{< fa solid link >}}](https://github.com/gisruk2024/slides/blob/485cb7ce7ccecda14584488c8b7e58f7f384496b/ecrs/PN-PhD-publishing-2024.pdf)
+* [ Building Impact into your Research (Fran Pontin) {{< fa solid link >}}](https://github.com/gisruk2024/slides/blob/485cb7ce7ccecda14584488c8b7e58f7f384496b/ecrs/Building%20Impact%20into%20your%20research-2.pdf)
