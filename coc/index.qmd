@@ -1,0 +1,184 @@
+# GISRUK Code of Conduct
+
+## Diversity Statement
+
+Geographical Information Science Research UK (GISRUK) is committed to
+welcoming and encouraging participation by all people at all GISRUK
+activities and forums. We strive to create an inclusive community that
+recognises and values everyone's differences and the strengths those
+differences bring to our community. This commitment to diversity and
+inclusivity includes all aspects of a person including, but not limited
+to: race; ethnicity; nationality; age; sex; gender; faith, religious
+belief, or non-belief; pregnancy and maternity; ability/disability;
+socioeconomic status; political views; and appearance.
+
+## Code of Conduct
+
+The following is largely based upon the [Berlin Code of
+Conduct](https://berlincodeofconduct.org/), which is a community
+organised and maintained guide for conduct at conferences and events.
+The Berlin Code of Conduct is distributed under a [Creative Commons
+Attribution-ShareAlike 4.0 International (CC BY-SA
+4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. The
+Berlin Code of Conduct is based on the [pdx.rb Code of
+Conduct](https://pdxruby.org/CONDUCT).
+
+### Purpose
+
+The primary goal of any GISRUK event is to be inclusive to the largest
+number of contributors , with the most varied and diverse backgrounds as
+possible. As such, we are committed to providing a safe and friendly
+environment for all. We ask you to join us in ensuring that this
+conference creates a dynamic, friendly, intellectually enriching and
+harassment-free environment for everyone while creating a safe and
+positive experience for everyone.
+
+### Scope
+
+We expect all GISRUK participants (contributors, paid or otherwise;
+sponsors; and other guests) to abide by this Code of Conduct in all
+GISRUK event venues---online and in-person---as well as in all
+one-on-one communications pertaining to community business.
+
+### Open Source/Tech/Culture Citizenship
+
+A supplemental goal of this Code of Conduct is to increase open
+\[source/culture/tech\] citizenship by encouraging participants to
+recognize and strengthen the relationships between our actions and their
+effects on our community.
+
+Communities mirror the societies in which they exist and positive action
+is essential to counteract the many forms of inequality and abuses of
+power that exist in society.
+
+If you see someone who is making an extra effort to ensure our community
+is welcoming, friendly, and encourages all participants to contribute to
+the fullest extent, we want to know.
+
+### Expected Behaviour
+
+-   Participate in an authentic and active way. In doing so, you
+    contribute to the health and longevity of this community.
+
+-   Exercise consideration and respect in your speech and actions.
+
+-   Attempt collaboration before conflict.
+
+-   Refrain from demeaning, discriminatory, or harassing behaviour and
+    speech.
+
+-   Be mindful of your surroundings and of your fellow participants.
+    Alert community leaders if you notice a dangerous situation, someone
+    in distress, or violations of this Code of Conduct, even if they
+    seem inconsequential.
+
+-   Communicate politely at all times. While English is the lingua
+    franca of this conference, keep in mind that not everyone may be a
+    native English speaker.
+
+### Unacceptable Behaviour
+
+Unacceptable behaviours include: intimidating, harassing, abusive,
+discriminatory, derogatory or demeaning speech or actions by any
+participant in our GISRUK community online, any GISRUK related events,
+and in one-on-one communications carried out in the context of GISRUK
+community business/activities. GISRUK community event venues may be
+spaces shared with members of the public; please be respectful to all
+patrons of these locations.
+
+Harassment includes: harmful or prejudicial verbal or written comments
+and imagery related to gender, sexual orientation, race or ethnicity,
+religion, nationality, political views, appearance, disability, or
+socioeconomics; inappropriate use of nudity and/or sexual images
+(including presentation slides); inappropriate depictions of violence
+(including presentation slides); deliberate intimidation, stalking or
+following; harassing or non-consensual photography or recording;
+sustained disruption of talks or other events; inappropriate physical
+contact, and unwelcome sexual attention.
+
+### Consequences of Unacceptable Behaviour
+
+Unacceptable behaviour from any community member, including sponsors and
+those with decision-making authority, will not be tolerated. Anyone
+asked to stop unacceptable behaviour is expected to comply immediately.
+
+If a GISRUK event member engages in unacceptable behaviour, the GISRUK
+organisers may take any action they deem appropriate, up to and
+including a temporary ban or permanent expulsion from the GISRUK
+community without warning (and without refund in the case of a paid
+event).
+
+#### If You Witness or are Subject to Unacceptable Behaviour
+
+If you are subject to or witness unacceptable behaviour, or have any
+other concerns, please notify a GISRUK event organiser as soon as
+possible. You can find a list of GISRUK event organizers to contact for
+each of the supporters of this code of conduct at the bottom of this
+document. Further, GISRUK organisers will be identifiable at any
+physical conference by a distinctive name badge stating "ORGANISER".
+
+Additionally, GISRUK organisers are available to help community members
+engage with local law enforcement or to otherwise help those
+experiencing unacceptable behaviour feel safe. In the context of
+in-person events, organisers will also provide escorts as desired by the
+person experiencing distress.
+
+[In case of a crime or an emergency]{.underline}, contact emergency
+services by calling 999 prior to contacting any conference organiser.
+
+The full procedure for reporting unacceptable behaviour is outlined in
+the section "Reporting Unacceptable Behaviour."
+
+##n Reporting Unacceptable Behaviour
+
+The following procedures are adapted from the FOSS4G 2019 conference's
+["Code of Conduct"](https://2019.foss4g.org/about/code-of-conduct/)
+which is based upon previous FOSS4G conferences, other conferences, and
+the Ada Initiative's guide titled "Conference anti-harassment/Responding
+to Reports".
+
+If you witness or are the target of harassment, please consult the dedicated [GISRUK harrassment policy and procedures](./harassment.qmd). The
+[GISRUK Organising Committee](../organisation/index.qmd) is committed to addressing and
+resolving the matter to the best of their abilities.
+
+Additionally, please report the incident to the GISRUK organisers
+as soon as possible either in person or via the contact listed at the
+end of this document. When reporting, try to gather as much information
+as possible, but do not interview people about the incident --
+organisers will assist you in writing the report/collecting information.
+
+Important information:
+
+-   Identifying information (name) of the participant doing the
+    harassing
+
+-   The behaviour that was in violation
+
+-   The approximate time of the behaviour (if different than the time
+    the report was made)
+
+-   The circumstances surrounding the incident
+
+-   Other people involved in the incident
+
+[IF AT ANY MOMENT, YOU FEEL UNSAFE, A CRIME HAS OCCURRED, OR THERE IS AN
+EMERGENCY, PLEASE IMMEDIATELY CALL 999 FOR EMERGENCY
+SERVICES]{.underline}. If you do not have the possibility to call, ask
+any staff member/organiser to assist you. All staff members/organisers
+are aware of the Code of Conduct policy and of the actions to take if it
+is not respected.
+
+### Addressing Grievances
+
+If you feel you have been falsely or unfairly accused of violating this
+Code of Conduct, you should notify one of the GISRUK event organisers
+with a concise description of your grievance. Your grievance will be
+handled in accordance with our existing governing policies.
+
+## GISRUK Conference Event Organisers and Contact
+
+Levi John Wolf (Co-Chair): +44 07445 836645, levi.john.wolf@bristol.ac.uk
+
+Rui Zhu (Co-chair): rui.zhu@bristol.ac.uk
+
+Caitlin Robinson (Co-chair): caitlin.robinson@bristol.ac.uk
