@@ -2,13 +2,17 @@
 title: "Organisation"
 ---
 
+<!-- TODO: add links to each person's landing page -->
 
-GISRUK2024 is hosted by the [School of Geography](https://environment.leeds.ac.uk/geography), University of Leeds. We have assembled a local organising committee: 
+GISRUK2025 is hosted by the [School of Geographical Sciences](https://bristol.ac.uk/geography) at the University of Bristol. Our local organising committee is
 
-* [Roger Beecham](https://www.roger-beecham.com/) and [Will James](https://environment.leeds.ac.uk/geography/staff/1054/dr-will-james), School of Geography. Joint conference leads
-* [Arjan Gosal](https://environment.leeds.ac.uk/geography/staff/1038/dr-arjan-gosal), School of Geography.
-* [Nick Hood](https://environment.leeds.ac.uk/geography/staff/1051/dr-nick-hood), School of Geography.
-* [Vikki Houlden](https://environment.leeds.ac.uk/geography/staff/9618/dr-vikki-houlden), School of Geography.
-* [Rachel Oldroyd](https://environment.leeds.ac.uk/geography/staff/1085/dr-rachel-oldroyd), School of Geography.
-* [Fran Pontin](https://environment.leeds.ac.uk/geography/pgr/2451/fran-pontin), Leeds Institute for Data Analytics.
-* [Keiran Suchak](https://environment.leeds.ac.uk/geography/pgr/2472/keiran-suchak), School of Geography.
+- Levi John Wolf
+- Rui Zhu
+- Caitlin Robinson
+- Rich Harris
+- Ce Zhang
+- Emmanouil Tranos
+
+The following reviewers have generously donated their time and attention to the conference: 
+
+- TBD

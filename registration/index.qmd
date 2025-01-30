@@ -2,13 +2,13 @@
 title: Registration
 ---
 
-Registration is via [ **this link**  {{< fa solid link >}}](https://eu.eventscloud.com/ereg/index.php?eventid=200272788&).  
+Registration is via [ **this link**  {{< fa solid link >}}](https://shop.bris.ac.uk/conferences-and-events/faculty-of-science/geographical-sciences/conferences/the-33rd-annual-gisruk-conference).  
 
 
 |                              | Student  | Non-student |
 |------------------------------|----------|-------------|
-| Early bird (ends 18th March) | £185     | £250        |
-| Late (ends 1st April)        | £210     | £280        |
+| Early bird (ends 21 March) | £190     | £255        |
+| Late       | £215     | £285        |
 
 
 <br>

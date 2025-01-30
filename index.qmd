@@ -1,44 +1,40 @@
 ---
-title: "GISRUK 2024 : University of Leeds"
+title: "GISRUK 2025 : University of Bristol"
 ---
 
 ::: {.callout-important icon=true}
 
-### Welcome, Lunch, Best Paper Voting, Socials
 
-**Welcome**. We very much look forward to seeing you in Leeds! Keep an eye out on this page as we post further updates in the next few days. 
+### Updates
 
+**Welcome**. We very much look forward to seeing you in Bristol! Keep an eye out on this page as we post further updates in the next few days. 
 
-**Extended Lunch**.  Today -- Thu 11th April -- lunch is extended and runs 1145--1330. Please use this time to check out the posters, located around the breakout spaces on floors 1 and 2, also the sponsor area in the reception.
-
+<!--
 **Best paper / poster prize**. As ever, remember to vote for the [{{< fa solid link >}}Best Paper awards](https://forms.office.com/e/6nf8Ut36ZF).  
 
 
-**Socials**. This evening's conference dinner is at [{{< fa solid link >}}The Faversham](https://www.thefaversham.com/) from 1900. 
-
+**Socials**. This evening's conference dinner is at [{{< fa solid link >}}Browns?]() from 1900. 
+-->
 
 :::
 
 
 ---------
 
-Welcome to the 32nd Annual GIS Research UK Conference. The conference will be hosted at University of Leeds on **9th -- 12th April 2024**.
+Welcome to the 33rd Annual GIS Research UK Conference. The conference will be hosted at University of Bristol on 23rd – 25th April 2025.
 
-GISRUK attracts international researchers and practitioners in GIS and related fields to share and discuss the latest advances in spatial computing and analysis. The work presented at GISRUK covers a range of methodological approaches and application areas, including: geographic data science, geocomputation, applied statistics, geography, health, urban and transport planning, crime science.
+GISRUK attracts international researchers and practitioners from geographic information science and related fields to share and discuss the latest advances in spatial computing and analysis. The work presented at GISRUK covers fundamental research, methodological approaches, and applications of GIScience across many domains.
 
-We welcome papers covering all aspects of GIS, both methodological and applied. There is also a theme for the 2024 conference --  **GIS for public good: data, theory, policy** -- around which keynotes and other activity will be structured.
+We welcome papers covering all aspects of GIS, both methodological and applied. This year, we are particularly excited to invite submissions that investigate Process in Geographic Information Science, including innovations in causal inference, graphical modelling, or re-thinking the link between the patterns we see and what we represent on our computer screens.
 
-See the [Call for papers](cfp/) for details on how to submit.
+## Accommodation
 
-**New**. We have agreed a Special Issue linked to the conference with [Environment & Planning B: Urban Data/Code](https://uk.sagepub.com/en-gb/eur/environment-and-planning-b-urban-analytics-and-city-science/journal203385#description). 
-Details can be found [here](si/).
-We encourage discrete Data/Code products that relate to the conference theme: *GIS for public good: data, theory, policy*. 
-For information on the Urban Data/Code section, see Arribas-Bel et al.'s (2021) [editorial](https://journals.sagepub.com/doi/full/10.1177/23998083211059670?_gl=1*1y72m9o*_ga*MTM3ODc1NzM1OS4xNjQyNzA4NjE5*_ga_60R758KFDG*MTcwMzE2MjMwMS40NC4wLjE3MDMxNjIzMDEuNjAuMC4w).
+The *Bristol and Bath Convention Bureau* has generously provided a local acommodation website with guaranteed rates for conference attendees. To get the conference rate, please book through [the Meet Bristol & Bath Convention Bureau website](https://meetbristolbathres.bzon.uk/event/33rd-annual-gis-research-uk-conference/)
 
 ## Key Dates
 
-* Paper submission deadline: ~~Monday 8th January 2024~~ Friday 19th January 2024
-* Paper review notifications: ~~Monday 12th February 2024~~ Monday 19th February 2024
-* Registration opens: February 2024
-* ECR workshops: 9th-10th April 2024
-* Conference: 10th-12th April 2024
+* Paper submission deadline: ~~9 January 2025~~  31 January 2025
+* Paper review notifications: ~~10 February 2025~~ 21 February 2025
+* Registration opens: Monday 3 February 2025
+* ECR workshops: 22-23 April 2025
+* Conference: 23-25 April 2025

@@ -8,7 +8,7 @@ resources:
   - CNAME
 
 website:
-  title: "GISRUK 2024"
+  title: "GISRUK 2025"
   favicon: "img/favicon/favicon.ico"
   navbar:
     logo: "img/favicon/apple-touch-icon.png"
@@ -27,8 +27,6 @@ website:
             text: Call for papers
           - href: osgeo/
             text: GISRUK & OSGeo:UK GoFundGeo Award
-          - href: si/
-            text: SI with E&P B Urban Data/Code
           - href: registration/
             text: Registration
       - text: "Programme"
@@ -44,8 +42,8 @@ website:
       - href: venue/
         text: Venue
     tools:
-      - icon: twitter
-        href: https://twitter.com/gisruk/
+      - icon: linkedin
+        href: https://www.linkedin.com/company/gisruk/
   page-footer:
     # center:
     #   - icon: "img/logos/logo_cdrc.webp"
@@ -65,6 +63,6 @@ format:
     # theme:
     #   light: flatly
     #   dark: darkly
-    theme: leeds.scss
+    theme: gisruk.scss
     toc: true
     include-after-body: footer.html
