@@ -21,6 +21,6 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          cname: 2024.gisruk.org
+          cname: 2025.gisruk.org
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
