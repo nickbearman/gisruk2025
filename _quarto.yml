@@ -54,9 +54,9 @@ website:
     #     href: https://www.osgeo.org/
     right:
       - icon: github
-        href: https://github.com/gisruk2024/
-      - icon: twitter
-        href: https://twitter.com/gisruk/
+        href: https://github.com/ljwolf/gisruk2025/
+      - icon: linkedin
+        href:  https://www.linkedin.com/company/gisruk/
 
 format:
   html:
