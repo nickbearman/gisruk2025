@@ -4,3 +4,4 @@ docs
 files/slides/*.qmd
 .Rproj
 .DS_Store
+./_site
