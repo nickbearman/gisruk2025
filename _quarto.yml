@@ -3,6 +3,7 @@ project:
   resources:
     - GISRUK2025_PaperTemplateSubmission.docx
     - GISRUK2025_PaperTemplateSubmission.zip
+    - latex.zip
 
 
 execute:
