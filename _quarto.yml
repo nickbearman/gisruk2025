@@ -1,5 +1,9 @@
 project:
   type: website
+  resources:
+    - GISRUK2025_PaperTemplateSubmission.docx
+    - GISRUK2025_PaperTemplateSubmission.zip
+
 
 execute:
   freeze: auto
