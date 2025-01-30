@@ -1,6 +1,5 @@
 /.quarto/
 docs
-_site/
 .Rproj.user
 files/slides/*.qmd
 .Rproj
