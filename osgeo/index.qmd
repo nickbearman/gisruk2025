@@ -9,11 +9,10 @@ offered to one GISRUK presenter who presents a tool or technique that has
 potential for wide uptake in the open source geospatial (OSGeo) community.
 The purpose of the grant is to help the recipient to make their approach easily
 adoptable through the provision of open source code repository and/or tool (e.g.
-a QGIS plugin).
+a QGIS plugin). 
 This grant is open to all, but with a focus on ECRs.
 
-This is the first time that this grant has been awarded, but we envisage that
-likely candidates will be GISRUK presenters (oral or poster) who have either
+This is now the second year that this grant has been awarded, and candidates will be GISRUK presenters (oral or poster) who have either
 developed some code (e.g., a Python/R script or library, a plugin for QGIS or
 some standalone software etc.); or a method / technique that has the clear
 potential to be turned into some code.
@@ -42,5 +41,5 @@ extended abstract.
 A selected panel of members of the OSGeo:UK community and GISRUK national
 steering committee will review the submitted abstracts and presentations to
 select the recipient.
-We will then announce the selected recipient at the at the GISRUK conference
+We will then announce the selected recipient at the GISRUK conference
 closing ceremony.
